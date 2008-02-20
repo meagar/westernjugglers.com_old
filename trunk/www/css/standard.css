@@ -1,0 +1,234 @@
+
+body {
+	padding:0;
+	margin:0;
+	font-size:12px;
+	background:url("gfx/watermark.png") bottom right no-repeat;
+}
+
+#FlashBox {
+	text-align:center;
+	color:#f00;
+	font-weight:bold;
+}
+
+#SideBar {
+	width:208px;
+	display:block;
+	text-align:center;
+	float:left;
+}
+
+p {
+	line-height:1.7;
+}
+
+#Content {
+/*	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;
+	position:relative;
+	width:800px;
+	margin-left:auto;
+	margin-right:auto;*/
+}
+
+#NextMeeting {
+	background:#fff;
+	text-align:center;
+	padding:3px 0;
+	border-bottom:1px solid #ccc;
+	background:#f3f3f3;
+}
+
+#NextMeeting a {
+	text-decoration:none;
+	font-size:x-small;
+	color:#999;
+}
+
+#NextMeeting a:hover {
+	color:#000;
+}
+
+
+#Header {
+	position:relative;
+	background:#fff;
+	text-align:center;
+	margin:0;
+	height:140px;
+	border-bottom:1px solid #5F439A;
+}
+
+#Header h1 {
+	padding:0;
+	margin:0;
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+#Header h1 a {
+	display:block;
+	background:url('gfx/header.png') top left no-repeat #fff;
+	height:140px;
+	width:700px;
+}
+
+#Header h1 span {display:none; }
+
+#Toc {
+	font-size:smaller;
+	color:#444;
+	margin:0;
+	text-align:center;
+	position:absolute;
+	bottom:0px;
+	left:220px;
+	font-weight:bold;
+}
+
+#Toc ul {
+	text-align:right
+	list-style-type:none;
+	padding:0;
+	margin:0;
+}
+
+#Toc ul li {
+	list-style-type:none;
+	display:inline;
+}
+
+#Toc ul a {
+	display:block;
+	float:left;
+	padding:5px 10px;
+	margin:0 1px 0 0 ;
+	text-decoration:none;
+	color:#777;
+	border-bottom:2px solid #fff;
+}
+
+#Toc .Active a {
+	color:#61116b;
+	border-bottom:2px solid #61116b;
+	background:#eee;
+}
+
+#Toc ul a:hover {
+	color:#61116b;
+	border-bottom:2px solid #9b64a1;
+}
+
+#BodyContent {
+	line-height:1.7;
+	padding-left:220px;
+	padding-bottom:0;
+}
+
+#Body {
+}
+
+
+table.Schedule {
+	font-size:small;
+	margin:1em 2em 2em 0;
+	background:#fff;
+	color:#333;
+	border-collapse:collapse;
+	border:2px solid #999;
+	font-size:smaller;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+table.Schedule th {
+	font-weight:normal;
+	background:#d7d7d7;
+}
+
+table.Schedule td,  
+table.Schedule th {
+	border-top:1px solid #cfcfcf;
+	padding:1px 5px;
+	text-align:center;
+}
+
+table.Schedule tr.Past td {
+	background:#f4f4f4;
+	color:#999;
+}
+
+table.Schedule tr.Past th {
+	color:#999;
+	background:#eaeaea;
+}
+
+table.Schedule tr.Next th,
+table.Schedule tr.Next td {
+	font-weight:bold;
+	border-top:2px solid #61116b;
+	border-bottom:2px solid #61116b;
+	background:#ddd;
+}
+table.Schedule tr.Next th { border-left:2px solid #61116b; }
+table.Schedule tr.Next td { border-right:2px solid #61116b; }
+
+table.Schedule td {
+	padding:5px;
+}
+
+table.Schedule td.loc-0 { color:#00b; }
+table.Schedule td.loc-1 { color:#a00; }
+table.Schedule td.loc-2 { color:#0a0; }
+
+div.Member {
+	border:1px solid #999;
+	background:#eee;
+	padding:2px;
+	width:500px;
+	float:left;
+	margin:10px 5px;
+}
+
+div.Member img {
+	float:left;
+	margin-right:25px;
+}
+
+div.Member h3 {
+	margin-bottom:0;
+}
+
+div.Member h4 {
+	margin-top:0;
+	font-size:smaller;
+}
+
+#Records ul {
+	list-style-type:none;
+}
+
+#Records li {
+	font-weight:normal;
+	text-align:left;
+	width:550px;
+	float:left;
+	margin:10px 10px;
+}
+
+#Records h4 {
+	padding:0; margin:0;
+}
+
+#Records span {
+	padding-left:1em;
+}
+
+#Footer {
+	clear:both;
+	text-align:center;
+	padding:2em 0;
+	font-size:smaller;
+}
