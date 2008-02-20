@@ -1,3 +1,3 @@
-<? include('parts/header.php') ?>
+<? function yield_body() { ?>
 
-<? include('parts/footer.php') ?>
+<? } include('parts/layout.php') ?>

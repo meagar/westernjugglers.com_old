@@ -18,6 +18,8 @@ if ($flash != "")
 	$flash = '<div id="FlashBox">' . $flash . '</div>';
 
 ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html>
 <head>
 	<title>UWO Juggling Club</title>
@@ -51,7 +53,21 @@ if ($flash != "")
 
 				<div id="BodyContent">
 					<?= $flash ?>
+					<? yield_body() ?>
+					<div style="clear:both;"></div>
+				</div><!-- BodyContent -->
+			</div><!-- Body -->
+			<div id="Push"></div>
+		</div><!-- Wrapper -->
 
+		<div id="Footer">
+			&copy; 2008 UWO Juggling Club
+		</div>
+
+		</div><!-- Content -->
+
+</body>
+</html>
 <?
 
 function home_link($label) {

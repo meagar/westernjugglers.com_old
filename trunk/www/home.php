@@ -1,4 +1,4 @@
-<?php include('parts/header.php') ?>
+<? function yield_body() { ?>
 
 <p>
 	<b>The Western Juggling Club</b> is a student club at the
@@ -27,7 +27,7 @@
 	<a href="http://en.wikipedia.org/wiki/Diabolo">diabolos</a>,
 	<a href="http://en.wikipedia.org/wiki/Cigar_box_%28juggling%29">cigar boxes</a>,
 	<a href="http://en.wikipedia.org/wiki/Kendama">kendama</a>, and
-	<a href=http://en.wikipedia.org/wiki/Yo-yo">yo-yos</a>.  They would be more than
+	<a href="http://en.wikipedia.org/wiki/Yo-yo">yo-yos</a>.  They would be more than
 	happy to demonstrate how to use all of these props as well as how to
 	perform tricks with them.
 </p>
@@ -35,8 +35,8 @@
 <p>
 	The club meets weekly throughout the school year, alternating between
 	Sundays in Room 15 of Alumni Hall, and Mondays in the atrium of UCC,
-	from 7 - 9 p.m.  A <?= meetings_link('full schedule') ?> is available.
+	from 7 - 9 p.m.  A full schedule of this years meetings is available to the left.
 </p>
 
-<?php include('parts/footer.php') ?>
 
+<? } include('parts/layout.php'); ?>

@@ -1,4 +1,5 @@
-<?  include 'parts/header.php'; ?>
+<? function yield_body() { ?>
+
 <h2>Meetings</h2>
 <p>
 	Our club meetings are always held from <b>7pm to 9pm</b>, alternating between Monday
@@ -17,6 +18,4 @@ Room 15 in Alumni Hall is also known as the wrestling room.  It is downstairs in
 Meetings are held in the atrium of UCC near the entance to the Spoke.  Parking on campus on Monday nights will require you to pay for parking.  Most meters on campus are in effect until 8 p.m. on weekdays.  If available, the best option is to park in the lot beside Weldon library which has a $4 coin entry in the evenings. 
 </p>
 
-
-
-<?php include('parts/footer.php') ?>
+<? } include('parts/layout.php') ?>

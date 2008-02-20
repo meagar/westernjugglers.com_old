@@ -1,10 +1,29 @@
 
+html, body { height:100%; }
+
 body {
 	padding:0;
 	margin:0;
 	font-size:12px;
-	height:100%;
+}
+
+#Footer, #Push {
+	height:4em;
+	clear:both;
+	text-align:center;
+	font-size:smaller;
+}
+
+#Wrapper {
 	background:url("gfx/watermark.png") bottom right no-repeat;
+	min-height:100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -4em;
+}
+
+#footer {
+	height:4em;
 }
 
 #FlashBox {
@@ -20,16 +39,6 @@ body {
 	width:208px;
 	text-align:center;
 	float:left;
-}
-
-
-#Content {
-/*	border-left:1px solid #ccc;
-	border-right:1px solid #ccc;
-	position:relative;
-	width:800px;
-	margin-left:auto;
-	margin-right:auto;*/
 }
 
 #NextMeeting {
@@ -217,11 +226,3 @@ div.Member h4 {
 	padding-left:1em;
 }
 
-/*** Footer ***/
-
-#Footer {
-	clear:both;
-	text-align:center;
-	padding:2em 0;
-	font-size:smaller;
-}

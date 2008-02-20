@@ -1,4 +1,5 @@
-<?php include('parts/header.php') ?>
+<? function yield_body() { ?>
 
 <h3>Coming soon</h3>
-<?php include('parts/footer.php') ?>
+
+<? } include('parts/layout.php') ?>

@@ -1,7 +1,7 @@
-<?
-include('parts/header.php');
-include('data/records.php');
-?>
+<? function yield_body() { ?>
+
+<? include('data/records.php'); ?>
+
 <div id="Records">
 <h2>Club Records</h2>
 
@@ -24,4 +24,4 @@ refound on occasion.
 <? } ?>
 </ul>
 
-<? include('parts/footer.php') ?>
+<? } include('parts/layout.php') ?>
