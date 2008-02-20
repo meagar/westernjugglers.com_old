@@ -62,7 +62,7 @@ function RenderMeetingTable() {
 			?>
 			<tr class="<?= $class ?>">
 				<th><?= $dateFmt ?></th>
-				<td class="<?= $locClass ?>"><?= $location ?></td>
+				<td class="<?= $locClass ?>"><?=h($location)?></td>
 			</tr>
 			<?
 		}	
