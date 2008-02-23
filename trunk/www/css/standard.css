@@ -28,7 +28,7 @@ body {
 	text-align:center;
 	color:#f00;
 	font-weight:bold;
-	padding-right:208px;
+	padding-right;
 	font-size:smaller;
 	margin:5px;
 }
@@ -131,6 +131,7 @@ body {
 #BodyContent {
 	line-height:1.7;
 	padding-left:220px;
+	padding-right:30px;
 	padding-bottom:0;
 }
 
@@ -183,7 +184,7 @@ div.Member {
 	border:1px solid #bbb;
 	background:#eee;
 	padding:2px;
-	width:500px;
+	width:95%;
 	float:left;
 	margin:10px 5px 0;
 }
@@ -223,4 +224,15 @@ div.Member h4 {
 #Records span {
 	padding-left:1em;
 }
+
+/*** Events ***/
+.Event {
+	list-style-type:none;
+	padding-bottom:3em;
+}
+
+.Event h4 { margin:0; }
+.Event p { font-size:smaller; margin:0 1em; }
+.Event p.Info { font-size:100%; margin-top:1em; }
+
 

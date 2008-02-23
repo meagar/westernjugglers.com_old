@@ -1,6 +1,6 @@
-<? function yield_body() { ?>
+<? require_once('include/record.php'); ?>
 
-<? include('data/records.php'); ?>
+<?function yield_body() { ?>
 
 <div id="Records">
 	<h2>Club Records</h2>
@@ -12,13 +12,13 @@
 	refound on occasion.
 	</p>
 	<ul>
-	<? foreach ($records as $record) { ?>
+	<? foreach (getRecords() as $record) { ?>
 	<li>
-		<h4><?=h($record[0])?></h4>
+		<h4><?=h($record->what)?></h4>
 		<p>
-			<span class="Holder"><?=h($record[2])?></span><br/>
-			<span class="Record"><?=h($record[1])?></span>,
-			<span class="Date"><?=h($record[3])?></span>
+			<span class="Holder"><?=h($record->holder)?></span><br/>
+			<span class="Record"><?=h($record->record)?></span>,
+			<span class="Date"><?=h($record->date)?></span>
 		</p>
 	</li>
 	<? } ?>

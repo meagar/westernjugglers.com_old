@@ -2,10 +2,9 @@
 require_once('data/schedule.php');
 
 function MeetingsByDate() {
-	global $schedule;
 	$dateList = array();
 
-	foreach ($schedule as $location => $dates)
+	foreach (getSchedule() as $location => $dates)
 			foreach ($dates as $date)
 				$dateList[strtotime($date)] = $location;
 
@@ -26,7 +25,7 @@ function RenderNextMeeting() {
 }
 
 function RenderMeetingTable() {
-	global $schedule;
+	$schedule = getSchedule();
 ?>
 	<table class="Schedule">
 		<? $dateList = array() ?>

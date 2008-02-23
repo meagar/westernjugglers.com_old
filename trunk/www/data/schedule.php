@@ -1,5 +1,6 @@
-<?php
-	$schedule = array
+<?
+function getSchedule() {
+	return array
 	( 'Alumni Hall' => array
 		( 'September 23, 2007'
 		, 'September 30, 2007'
@@ -26,4 +27,5 @@
 		, 'March 10, 2008'
 		, 'March 24, 2008')
 	);
+}
 ?>
