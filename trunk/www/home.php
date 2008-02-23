@@ -7,6 +7,9 @@
 	hand-eye coordination.  The club is suitable for jugglers of all
 	skill levels, with learn-to-juggle workshops for those just starting
 	out, and juggling games for those with a little more experience.
+
+	All are welcome, regardless of past or present enrollment at
+	<a href="http://www.uwo.ca/">UWO</a>.
 </p>
 
 <p>
@@ -29,7 +32,11 @@
 	<a href="http://en.wikipedia.org/wiki/Kendama">kendama</a>, and
 	<a href="http://en.wikipedia.org/wiki/Yo-yo">yo-yos</a>.  They would be more than
 	happy to demonstrate how to use all of these props as well as how to
-	perform tricks with them.
+	perform tricks with them.  Some members juggle
+	<a href="http://en.wikipedia.org/wiki/Torch_(juggling)">torches</a> or
+	<a href="http://en.wikipedia.org/wiki/Knife_juggling">knives</a>, but
+	for insurance purposes dangerous props are not allowed at meetings, and
+	they're best left at home.
 </p>
 
 <p>

@@ -115,18 +115,17 @@ body {
 	margin:0 1px 0 0 ;
 	text-decoration:none;
 	color:#777;
-	border-bottom:2px solid #fff;
 }
 
-#Toc .Active a {
-	color:#61116b;
-	border-bottom:2px solid #61116b;
-	background:#eee;
+#Toc .Active a,
+#Toc .Active a:hover  {
+	color:#fff;
+	background:#61116b;
 }
 
 #Toc ul a:hover {
 	color:#61116b;
-	border-bottom:2px solid #9b64a1;
+	background:#e1d0de;
 }
 
 #BodyContent {
