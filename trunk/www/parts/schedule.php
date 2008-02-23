@@ -40,19 +40,17 @@ function RenderMeetingTable() {
 	
 		$locations = array_keys($schedule);
 		sort($locations);
+		
+		$class = 'Past';
 
 		foreach ($keys as $date) {
 			$location = $dateList[$date];
-			$locClass = 'loc-' . array_search($location, $locations);
 			$dateFmt = date('M d, Y', $date);
 
-			$class = 'Past';
 			if ($date >= time()) {
-				if ($nextDate == '') {
+				if ($class == 'Past') {
 					$class = 'Next';
 					$dateFmt = '* ' . $dateFmt;
-					$nextDate = date('F d, Y', $date);
-					$nextLocation = $loc;
 				} else {
 					$class = 'Future';
 				}
@@ -61,7 +59,7 @@ function RenderMeetingTable() {
 			?>
 			<tr class="<?= $class ?>">
 				<th><?= $dateFmt ?></th>
-				<td class="<?= $locClass ?>"><?=h($location)?></td>
+				<td class="<?= strtolower(str_replace(' ', '-', $location)) ?>"><?=h($location)?></td>
 			</tr>
 			<?
 		}	

@@ -174,9 +174,8 @@ table.Schedule tr.Next td { border-right:2px solid #61116b; }
 
 table.Schedule td { padding:5px; }
 
-table.Schedule td.loc-0 { color:#00b; }
-table.Schedule td.loc-1 { color:#a00; }
-table.Schedule td.loc-2 { color:#0a0; }
+table.Schedule td.ucc-atrium{ color:#a00; }
+table.Schedule td.alumni-hall { color:#00b; }
 
 /*** Executive ***/
 
