@@ -10,6 +10,7 @@ body {
 	height:70px;
 	clear:both;
 	text-align:center;
+	margin-top:30px;
 }
 
 #Footer span { font-size:x-small; }
@@ -21,7 +22,7 @@ body {
 	min-height:100%;
 	height: auto !important;
 	height: 100%;
-	margin: 0 auto -70px;
+	margin: 0 auto -100px;
 }
 
 #FlashBox {
@@ -234,4 +235,59 @@ div.Member h4 {
 .Event p { font-size:smaller; margin:0 1em; }
 .Event p.Info { font-size:100%; margin-top:1em; }
 
+/*** Links ***/
+#Links ul {
+	list-style-type:none;	
+}
+
+.GalleryBrief h3, .GalleryBrief h3 a {
+	margin-top:0;
+	text-align:left;
+	display:block;
+	float:left;
+}
+
+.GalleryBrief div.Thumbnails {
+	padding-left:2em;
+}
+
+.Gallery h3 {
+	display:block;
+	width:100%;
+}
+
+.Gallery div.Thumbnail {
+	width:200px;
+	height:220px;
+	float:left;
+}
+
+.Gallery img {
+	border:none;
+}
+
+.Gallery a {
+	display:block;
+	padding:10px;
+	text-align:center;
+	text-decoration:none;
+	color:#000;
+}
+
+.Gallery .Thumbnail a:hover {
+	background:#ddf;
+	text-decoration:none;
+}
+
+
+.Gallery a:hover {
+	color:#00f;
+	text-decoration:underline;
+}
+
+.GalleryBrief div.More {
+	margin-top:20px;
+	clear:both;
+	position:relative;
+}
 

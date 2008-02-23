@@ -56,6 +56,9 @@ function file_size($file) {
 	return (string)(round($size, 2)) . $units[$unit];
 }
 
+function get_pics($dir) {
+}
+
 function open_doc($title) {
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
