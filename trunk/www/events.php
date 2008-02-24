@@ -8,6 +8,8 @@ Juggling festivals are a great place to be inspired and astounded by
 truly great juggling.  There are usually one or more vendors of
 juggling equipment present, and crash-space can usually be arranged for
 multi-day festivals.
+
+Events are usually added to our <a href="http://www.google.com/calendar/embed?src=4l2em5a68d2m7uijpjnc1qbtbo%40group.calendar.google.com&ctz=America/New_York">Google Calendar</a>.
 </p>
 
 <p>Some upcoming events and festivals within driving distance of London:</p>

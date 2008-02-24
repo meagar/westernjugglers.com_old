@@ -53,6 +53,7 @@ if ($flash != "")
 		<div id="Body">
 			<div id="SideBar">
 				<? RenderMeetingTable() ?>
+				<a href="http://www.google.com/calendar/embed?src=4l2em5a68d2m7uijpjnc1qbtbo%40group.calendar.google.com&ctz=America/New_York">Google Calendar</a>
 			</div>
 
 			<div id="BodyContent">

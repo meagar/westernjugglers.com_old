@@ -20,7 +20,7 @@ return  array #name,when,date,url,info
 		, 'May 02 - 04, 2008'
 		, 'Ecole Lucien Pagé, Montreal, Quebec, Canada'
 		, 'http://jaq.qc.ca/English/index_en.asp'
-		, 'Roughly 7 hours'
+		, 'Roughly 7 hours drive.'
 		)
 	);
 
