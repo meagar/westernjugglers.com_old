@@ -14,7 +14,9 @@
 
 <p>
 	For those looking to buy juggling props of their own, we will have
-	a representative from Higgins Brothers juggling equipment out to one
+	a representative from
+	<a href="http://www.higginsbrothers.com/">Higgins Brothers</a>
+	juggling equipment out to one
 	of our fall meetings with various props for sale.  Otherwise, the
 	club has a collection of equipment that can be used at our meetings
 	and eventually signed out on a weekly basis by our members.
