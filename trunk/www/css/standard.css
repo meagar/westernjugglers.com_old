@@ -290,3 +290,17 @@ div.Member h4 {
 	position:relative;
 }
 
+.Contact ul {
+	list-style-type:none;
+	margin:0 0 3em;
+	padding:0;
+}
+
+.Contact h3 {
+	margin-bottom:0;
+}
+
+.Contact li p {
+	margin:0 2em 2em;
+}
+
