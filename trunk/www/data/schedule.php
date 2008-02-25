@@ -1,5 +1,7 @@
-<?
-function getSchedule() {
+<?  function getSchedule() {
+
+	# map of locations to an array of dates
+	# Dates should be parsable by date() ie, (Month DD, YYYY)
 	return array
 	( 'Alumni Hall' => array
 		( 'September 23, 2007'

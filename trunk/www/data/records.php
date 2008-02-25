@@ -1,7 +1,9 @@
-<?
+<? function getRecords() { 
 
-function getRecords() {
-
+# new Record(pattern, record, record setter, date)
+# ie
+# new Record('Five Ball Cascade', '50 catches', 'John Smith', 'November 1st 2005')
+	
 return array(
 	new Record ('Five Balls (cascade to neck catch to cascade)', '10 cycles', 'Craig Douglas', 'October 1st, 1989'),
 	new Record ('Two Ping Pong Balls in Mouth', '18 spits', 'Craig Douglas', 'October 8th, 1989'),

@@ -1,4 +1,5 @@
 <?  function getLinks() {
+	# new Link(label, url)
 	return array
 		( 'Organizations / Clubs / Festivals' => array
 			( new Link('International Juggling Association', 'http://www.juggle.org/')

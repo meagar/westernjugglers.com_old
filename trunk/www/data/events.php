@@ -1,6 +1,7 @@
 <? function getEvents() {
 
-return  array #name,when,date,url,info
+return  array 
+	# new Event(name, date, location, url, notes)
 	( new Event
 		( ' Waterloo Juggling Festival'
 		, 'March 15 & 16, 2008'
