@@ -2,7 +2,7 @@
 
 function drawThumbnail($image) {
 	?><div class="Thumbnail"><a href="<?= $image->file ?>"><img
-			src="<?= $image->thumb?>" alt="" /><br/><?=h($image->name)?></a></div><?
+			src="<?= $image->thumb?>" alt="" /></div><?
 
 }
 
@@ -10,17 +10,18 @@ function showAllGalleries() {
 
 	foreach (getGalleries() as $gallery) {
 		$images = $gallery->images;
+		$href="gallery.php?gallery=" . urlencode($gallery->name);
 		?>
 			<div class="GalleryBrief">
-				<h3><a href="gallery.php?gallery=<?= urlencode($gallery->name) ?>"
-					><?= str_replace('_', ' ', $gallery->name) ?> (<?= count($images) ?> Images)</a></h3>
+				<h3><a href="<?= $href?>"><?= $gallery->niceName ?></a></h3>
 	
 				<div class="Thumbnails">
 				<?
 					$max = (count($images) > 4 ? 4 : count($images));
 					for ($i = 0; $i < $max; ++$i)
 						drawThumbnail($images[$i]);
-				?>	
+				?>
+				<p><?= count($images) - $max ?> more images</p>
 				</div>
 			</div>
 		<?

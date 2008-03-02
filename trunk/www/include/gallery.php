@@ -25,7 +25,6 @@ function scale_image($src_file, $dest_file, $max_size, $quality = 100) {
 class Image {
 	public function __construct($file) {
 		$this->name = basename($file);
-
 		$this->file = $file;
 		$extension = pathinfo($file);
 
@@ -44,6 +43,7 @@ class Image {
 class Gallery {
 	public function __construct($path) {
 		$this->name = basename($path);
+		$this->niceName = str_replace('_', ' ', $this->name);
 
 		$this->images = array();	
 

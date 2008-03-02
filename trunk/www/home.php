@@ -1,25 +1,26 @@
 <? function yield_body() { ?>
 
 <p>
-	<b>The Western Juggling Club</b> is a student club at the
-	<a href="uwo.ca">University of Western Ontario</a> that promotes
-	juggling as a fun, stress-relieving activity that helps to improve
-	hand-eye coordination.  The club is suitable for jugglers of all
-	skill levels, with learn-to-juggle workshops for those just starting
-	out, and juggling games for those with a little more experience.
+	<b>The Western Juggling Club</b> is a student club at the <a href="uwo.ca"
+	>University of Western Ontario</a> that promotes juggling as a fun,
+	stress-relieving activity that helps to improve hand-eye coordination.
+	The club is suitable for jugglers of all skill levels, with learn-to-juggle
+	workshops for those just starting out, and juggling games for those with a
+	little more experience.
+</p>
 
+<p>
 	All are welcome, regardless of past or present enrollment at
 	<a href="http://www.uwo.ca/">UWO</a>.
 </p>
 
 <p>
-	For those looking to buy juggling props of their own, we will have
-	a representative from
-	<a href="http://www.higginsbrothers.com/">Higgins Brothers</a>
-	juggling equipment out to one
-	of our fall meetings with various props for sale.  Otherwise, the
-	club has a collection of equipment that can be used at our meetings
-	and eventually signed out on a weekly basis by our members.
+	For those looking to buy juggling props of their own, we will have a
+	representative from <a href="http://www.higginsbrothers.com"
+	>Higgins Brothers</a> juggling equipment out to one of our fall meetings with
+	various props for sale.  Otherwise, the club has a collection of equipment
+	that can be used at our meetings and eventually signed out on a weekly basis
+	by our members.
 </p>
 
 <p>
@@ -42,9 +43,9 @@
 </p>
 
 <p>
-	The club meets weekly throughout the school year, alternating between
-	Sundays in Room 15 of Alumni Hall, and Mondays in the atrium of UCC,
-	from 7 - 9 p.m.  A full schedule of this years meetings is available to the left.
+	The club meets weekly throughout the school year, alternating between Sundays
+	in Room 15 of Alumni Hall, and Mondays in the atrium of UCC, from 7 - 9 p.m.
+	A full schedule of this years meetings is available to the left.
 </p>
 
 

@@ -3,7 +3,10 @@
 <div class="Contact">
 <h2>Contact</h2>
 
-<p>The Club can be contacted in a number of ways:</p>
+<p>
+	Please don't hesitate to contact the club with any questions you might have.
+	We can be reached in a number of ways:
+</p>
 
 <ul>
 <li>

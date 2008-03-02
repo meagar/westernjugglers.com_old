@@ -1,6 +1,8 @@
 <?php
 include_once('parts/schedule.php');
 
+define('GOOGLE_CALENDAR_URL', 'http://www.google.com/calendar/embed?src=4l2em5a68d2m7uijpjnc1qbtbo%40group.calendar.google.com&amp;ctz=America/New_York');
+
 $TocItems = array
 	( 'Home' => 'home.php'
 	, 'Meetings' => 'meetings.php'
@@ -51,16 +53,17 @@ if ($flash != "")
 		</div>
 
 		<div id="Body">
-			<div id="SideBar">
-				<? RenderMeetingTable() ?>
-				<a href="http://www.google.com/calendar/embed?src=4l2em5a68d2m7uijpjnc1qbtbo%40group.calendar.google.com&ctz=America/New_York">Google Calendar</a>
-			</div>
 
 			<div id="BodyContent">
 				<?= $flash ?>
 				<? yield_body() ?>
 				<div style="clear:both;"></div>
 			</div><!-- BodyContent -->
+
+			<div id="SideBar">
+				<? RenderMeetingTable() ?>
+				<a href="<?= GOOGLE_CALENDAR_URL ?>">Google Calendar</a>
+			</div><!-- SideBar -->
 
 		</div><!-- Body -->
 
@@ -72,10 +75,9 @@ if ($flash != "")
 		<p><!-- W3C Validation Icons -->
 			<a href="http://validator.w3.org/check?uri=referer"><img
         src="http://www.w3.org/Icons/valid-xhtml10"
-				alt="Valid XHTML 1.0 Strict" height="31" width="88" /></a>
+				alt="Valid XHTML 1.0 Strict" /></a>
 
 			<a href="http://jigsaw.w3.org/css-validator/check/referer"><img
-				style="border:0;width:88px;height:31px"
 				src="http://jigsaw.w3.org/css-validator/images/vcss" 
 				alt="Valid CSS!" /></a> 
 		</p>

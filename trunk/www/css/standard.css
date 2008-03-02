@@ -34,10 +34,21 @@ body {
 	margin:5px;
 }
 
+#Body {
+	position:relative;
+}
+
 #SideBar {
 	width:208px;
 	text-align:center;
-	float:left;
+	position:absolute;
+	top:0;
+}
+
+#BodyContent {
+	line-height:1.7;
+	padding:0 30px 0 220px;
+	position:relative;
 }
 
 #NextMeeting {
@@ -126,13 +137,6 @@ body {
 #Toc ul a:hover {
 	color:#61116b;
 	background:#e1d0de;
-}
-
-#BodyContent {
-	line-height:1.7;
-	padding-left:220px;
-	padding-right:30px;
-	padding-bottom:0;
 }
 
 /*** Schedule ***/
@@ -243,11 +247,24 @@ div.Member h4 {
 	margin-top:0;
 	text-align:left;
 	display:block;
+	clear:both;
+}
+
+.GalleryBrief p {
+	clear:both;
+	text-align:right;
+}
+
+.GalleryBrief {
+	border:1px solid #ddd;
+	background:#eee;
 	float:left;
+	clear:both;
+	margin:1em;
 }
 
 .GalleryBrief div.Thumbnails {
-	padding-left:2em;
+	padding:0 2em;
 }
 
 .Gallery h3 {
@@ -257,7 +274,7 @@ div.Member h4 {
 
 .Gallery div.Thumbnail {
 	width:170px;
-	height:200px;
+	height:220px;
 	float:left;
 }
 
