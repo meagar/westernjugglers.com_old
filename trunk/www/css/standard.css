@@ -137,7 +137,14 @@ body {
 	background:#e1d0de;
 }
 
-/*** Schedule ***/
+/*** Schedule side bar ***/
+
+.MeetingTonight {
+	color:#f00;
+	font-weight:bold;
+	font-size:smaller;
+	line-height:1;
+}
 
 table.Schedule {
 	margin:1em 2em 2em 0;
@@ -156,7 +163,7 @@ table.Schedule th {
 }
 
 table.Schedule th {
-	font-weight:normal;
+	font-weight:bold;
 	background:#d7d7d7;
 }
 

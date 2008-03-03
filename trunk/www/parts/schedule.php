@@ -24,13 +24,27 @@ function RenderNextMeeting() {
 	}
 }
 
+function MeetingTonight() {
+	$tonight = date('M d, Y', time());
+
+	foreach (array_keys(MeetingsByDate()) as $date)
+		if (date('M d, Y', $date) == $tonight)
+			return true;
+
+	return false;
+}
+
 function RenderMeetingTable() {
+
+	if (MeetingTonight())
+		echo '<div class="MeetingTonight">Meeting tonight!</div>';
+
 	$schedule = getSchedule();
 ?>
 	<table class="Schedule">
 		<? $dateList = array() ?>
-		<tr><th style="text-align:center; font-weight:bold" colspan="2">2007 - 2008 Schedule</th></tr>
-		<tr><th style="text-align:center; font-weight:bold; border:none;">Date</th><th style="text-align:center; font-weight:bold; border:none;">Location</th></tr>
+		<tr><th colspan="2">2007 - 2008 Schedule</th></tr>
+		<tr><th>Date</th><th>Location</th></tr>
 		<?
 
 		$dateList = MeetingsByDate();
