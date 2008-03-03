@@ -2,6 +2,7 @@
 include_once('parts/schedule.php');
 
 define('GOOGLE_CALENDAR_URL', 'http://www.google.com/calendar/embed?src=4l2em5a68d2m7uijpjnc1qbtbo%40group.calendar.google.com&amp;ctz=America/New_York');
+define('GOOGLE_CAL_LINK', '<a href="http://www.google.com/calendar/embed?src=4l2em5a68d2m7uijpjnc1qbtbo%40group.calendar.google.com&amp;ctz=America/New_York">Google Calendar</a>');
 
 $TocItems = array
 	( 'Home' => 'home.php'
@@ -62,7 +63,7 @@ if ($flash != "")
 
 			<div id="SideBar">
 				<? RenderMeetingTable() ?>
-				<a href="<?= GOOGLE_CALENDAR_URL ?>">Google Calendar</a>
+				<?= GOOGLE_CAL_LINK ?>
 			</div><!-- SideBar -->
 
 		</div><!-- Body -->

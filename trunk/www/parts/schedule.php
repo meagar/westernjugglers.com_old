@@ -6,7 +6,7 @@ function MeetingsByDate() {
 
 	foreach (getSchedule() as $location => $dates)
 			foreach ($dates as $date)
-				$dateList[strtotime($date)] = $location;
+				$dateList[strtotime($date . ' 21:00')] = $location;
 
 	return $dateList;
 }

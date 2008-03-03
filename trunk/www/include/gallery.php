@@ -1,15 +1,19 @@
 <?php
 
-function scale_image($src_file, $dest_file, $max_size, $quality = 100) {
+function scale_image($src_file, $dest_file, $max_width, $max_height, $quality = 100) {
 	// Load the file
 	list ($width, $height) = getimagesize($src_file);
+	
+	$max_ratio = $max_width / $max_height;
+	$ratio = $width / $height;
 
-	if ($width > $height) {
-		$dst_width  = $max_size;
-		$dst_height = ($height / $width) * $max_size;
+	if ($ratio > $max_ratio) {
+		$dst_width  = $max_width;
+		$dst_height = ($height / $width) * $max_width;
 	} else {
-		$dst_width  = ($width / $height) * $max_size;
-		$dst_height = $max_size;
+		$dst_width  = ($width / $height) * $max_height;
+		$dst_height = $max_height;
+
 	}
 
 	$src = imagecreatefromjpeg($src_file);
@@ -32,7 +36,7 @@ class Image {
 		$thumb = strtolower($thumb);
 
 		if (!is_file($thumb))
-			scale_image($file, $thumb, 150, 90);
+			scale_image($file, $thumb, 150, 130, 85);
 
 		$this->thumb = $thumb;
 

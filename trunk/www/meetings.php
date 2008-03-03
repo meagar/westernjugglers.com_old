@@ -8,7 +8,7 @@
 	alternation, refer to the schedule to the left for concrete meeting dates.
 </p>
 <p>
-Our meetings are also available on the club's <a href="<?= GOOGLE_CALENDAR_URL ?>">Google Calendar</a>.
+Our meetings are also available on the club's <?= GOOGLE_CAL_LINK ?>.
 </p>
 
 <h3>Room 15 - Alumni Hall</h3>
