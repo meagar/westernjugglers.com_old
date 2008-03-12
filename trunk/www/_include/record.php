@@ -11,6 +11,6 @@ class Record {
 	}
 };
 
-include('data/records.php');
+include('_data/records.php');
 
 ?>

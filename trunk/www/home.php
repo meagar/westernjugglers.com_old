@@ -49,4 +49,4 @@
 </p>
 
 
-<? } include('parts/layout.php'); ?>
+<? } include('_parts/layout.php'); ?>

@@ -1,5 +1,5 @@
 <?php
-include_once('parts/schedule.php');
+include_once('_parts/schedule.php');
 
 define('GOOGLE_CALENDAR_URL', 'http://www.google.com/calendar/embed?src=4l2em5a68d2m7uijpjnc1qbtbo%40group.calendar.google.com&amp;ctz=America/New_York');
 define('GOOGLE_CAL_LINK', '<a href="http://www.google.com/calendar/embed?src=4l2em5a68d2m7uijpjnc1qbtbo%40group.calendar.google.com&amp;ctz=America/New_York">Google Calendar</a>');
@@ -16,7 +16,7 @@ $TocItems = array
 	, 'Links' => 'links'
 	);
 
-$flash = @file_get_contents('data/flash');
+$flash = @file_get_contents('_data/flash');
 
 if ($flash != "")
 	$flash = '<div id="FlashBox">' . h($flash) . '</div>';
@@ -32,7 +32,7 @@ if ($flash != "")
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 	<title>UWO Juggling Club</title>
-	<link rel="stylesheet" type="text/css" href="/css/standard.css" />	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="/_css/standard.css" />	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 </head>
 
 <body>

@@ -1,5 +1,5 @@
 <?php
-require_once('data/schedule.php');
+require_once('_data/schedule.php');
 
 function MeetingsByDate() {
 	$dateList = array();

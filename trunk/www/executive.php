@@ -12,7 +12,7 @@ $members = array
 
 <div id="Executive">
 	<? foreach ($members as $info) {
-		$file = 'members/' . strtolower($info[0]) . '.jpg';	?>
+		$file = '_gfx/members/' . strtolower($info[0]) . '.jpg';	?>
 		<div class="Member">
 			<? if (is_file($file)) { ?><img src="/<?= $file ?>" alt="<?=h($info[0])?>" /><? } ?>
 			<h3><?= h($info[0]) ?></h3>
@@ -23,5 +23,5 @@ $members = array
 	<? } ?>
 </div>
 
-<? } include('parts/layout.php') ?>
+<? } include('_parts/layout.php') ?>
 

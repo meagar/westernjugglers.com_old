@@ -10,5 +10,5 @@ class Event {
 	}
 }
 
-include('data/events.php');
+include('_data/events.php');
 ?>
