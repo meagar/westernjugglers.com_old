@@ -3,11 +3,18 @@
 return  array 
 	# new Event(name, date, location, url, notes)
 	( new Event
-		( ' Waterloo Juggling Festival'
+		( 'Waterloo Juggling Festival'
 		, 'March 15 & 16, 2008'
 		, 'University of Waterloo, Waterloo Ontario'
 		, 'http://www.math.uwaterloo.ca/~jjwest/UWFest08.htm'
-		, 'About a 1.5 hour drive.  Matt will be attending for at least the 16th (Sat) and will have free space in his car.  <a href="http://www.higginsbrothers.com/">Higgins Brothers</a> will be there.'
+		, 'About a 1.5 hour drive. Matt, Sean and Wes are going early Saturday; there is space for one more in the car. <a href="http://www.higginsbrothers.com/">Higgins Brothers</a> will be there.'
+	  )
+	, new Event
+		( 'Burning Club Convention 2008'
+		, 'April 4-6, 2008'
+		, 'The Field House at Bowling Green State University in Bowling Green, Ohio'
+		, 'http://i75juggling.com/node/329'
+		, 'Roughly 3.5 hours by car.  Matt and Sean are confirmed, Wes is likely going as well.'
 		)
 	, new Event
 	  ( 'RIT Spring Juggle-In'
