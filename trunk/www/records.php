@@ -1,4 +1,4 @@
-<? require_once('include/record.php'); ?>
+<? require_once('_include/record.php'); ?>
 
 <?function yield_body() { ?>
 
@@ -25,4 +25,4 @@
 	</ul>
 </div><!-- Records -->
 
-<? } include('parts/layout.php') ?>
+<? } include('_parts/layout.php') ?>

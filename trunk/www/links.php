@@ -1,5 +1,5 @@
 <? function yield_body() { ?>
-<? require_once('include/link.php') ?>
+<? require_once('_include/link.php') ?>
 
 <div id="Links">
 
@@ -22,4 +22,4 @@
 
 </div>
 
-<? } include('parts/layout.php') ?>
+<? } include('_parts/layout.php') ?>

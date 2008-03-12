@@ -28,4 +28,4 @@
 	<p>The site administrator can be reached at <a href="mailto:meagar@gmail.com">meagar@gmail.com</a></p>
 </div>
 
-<? } include('parts/layout.php') ?>
+<? } include('_parts/layout.php') ?>

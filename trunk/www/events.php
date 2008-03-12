@@ -1,4 +1,4 @@
-<? require_once('include/event.php') ?>
+<? require_once('_include/event.php') ?>
 
 <? function yield_body() { ?>
 
@@ -25,4 +25,4 @@
 <? } ?>
 </ul>
 
-<? } include('parts/layout.php') ?>
+<? } include('_parts/layout.php') ?>

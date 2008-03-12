@@ -1,8 +1,8 @@
-<? require_once('include/gallery.php');
+<? require_once('_include/gallery.php');
 
 function drawThumbnail($image) {
-	?><div class="Thumbnail"><a href="<?= $image->file ?>"><img
-		src="<?= $image->thumb?>" alt=""  /></a></div><?
+	?><div class="Thumbnail"><a href="/<?= $image->file ?>"><img
+		src="/<?= $image->thumb?>" alt=""  /></a></div><?
 
 }
 
@@ -55,7 +55,7 @@ function yield_body() {
 	if (count($_GET) == 1) {
 		$keys = array_keys($_GET);
 		$gallery = basename($keys[0]);
-		if (!is_dir('gallery/' . $gallery))
+		if (!is_dir('_gallery/' . $gallery))
 			unset($gallery);
 	}
 
@@ -69,4 +69,4 @@ function yield_body() {
 		showAllGalleries();
 	?>
 	</div>
-<? } include('parts/layout.php') ?>
+<? } include('_parts/layout.php') ?>

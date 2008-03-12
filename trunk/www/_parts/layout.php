@@ -32,7 +32,8 @@ if ($flash != "")
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 	<title>UWO Juggling Club</title>
-	<link rel="stylesheet" type="text/css" href="/_css/standard.css" />	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="/_css/standard.css" />
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 </head>
 
 <body>
@@ -43,7 +44,7 @@ if ($flash != "")
 			<div id="Toc">
 				<ul><?
 					foreach ($TocItems as $label => $page) {
-						if (basename($_SERVER['SCRIPT_FILENAME']) == $page) {
+						if (str_replace('.php', '', basename($_SERVER['SCRIPT_FILENAME'])) == $page) {
 							?><li class="Active"><a href="/<?= $page ?>"><span><?= $label ?></span></a></li><?
 						} else {
 							?><li><a href="/<?= $page ?>"><span><?= $label ?></span></a></li><?
