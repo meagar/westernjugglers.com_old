@@ -68,7 +68,7 @@ function getGalleries() {
 
 	$galleries = array();
 
-	foreach (glob('gallery/*') as $dir) {
+	foreach (glob('_gallery/*') as $dir) {
 		if (is_dir($dir)) {
 			array_push($galleries, new Gallery($dir));
 		}

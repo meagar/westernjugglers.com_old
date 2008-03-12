@@ -10,7 +10,7 @@ function showAllGalleries() {
 
 	foreach (getGalleries() as $gallery) {
 		$images = $gallery->images;
-		$href="gallery.php?gallery=" . urlencode($gallery->name);
+		$href="/gallery/?" . urlencode($gallery->name);
 		?>
 			<div class="GalleryBrief">
 				<h3><a href="<?= $href?>"><?= $gallery->niceName ?></a></h3>
@@ -35,7 +35,7 @@ function showGallery($name) {
 		?>
 
 		<h3><?= str_replace('_', ' ', $gallery->name) ?></h3>
-		<a href="gallery.php">Back</a><br/>
+		<a href="gallery">Back</a><br/>
 
 		<div class="Description"><?=h($gallery->desc)?></div>
 
@@ -43,7 +43,7 @@ function showGallery($name) {
 		foreach ($gallery->images as $image)
 			drawThumbnail($image);
 		?>
-			<a style="clear:both; display:block;" href="gallery.php">Back</a><br/>
+			<a style="clear:both; display:block;" href="gallery">Back</a><br/>
 		<?
 	}
 }
@@ -52,8 +52,9 @@ function showGallery($name) {
 function yield_body() {
 
 	# Parse our input param, if any
-	if (array_key_exists('gallery', $_GET)) {
-		$gallery = basename($_GET['gallery']);
+	if (count($_GET) == 1) {
+		$keys = array_keys($_GET);
+		$gallery = basename($keys[0]);
 		if (!is_dir('gallery/' . $gallery))
 			unset($gallery);
 	}

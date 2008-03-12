@@ -14,7 +14,7 @@ $members = array
 	<? foreach ($members as $info) {
 		$file = 'members/' . strtolower($info[0]) . '.jpg';	?>
 		<div class="Member">
-			<? if (is_file($file)) { ?><img src="<?= $file ?>" alt="<?=h($info[0])?>" /><? } ?>
+			<? if (is_file($file)) { ?><img src="/<?= $file ?>" alt="<?=h($info[0])?>" /><? } ?>
 			<h3><?= h($info[0]) ?></h3>
 			<h4><?= h($info[1]) ?></h4>
 			<p><?=  h($info[3]) ?></p>	
