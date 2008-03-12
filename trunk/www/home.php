@@ -1,7 +1,7 @@
 <? function yield_body() { ?>
 
 <p>
-	<b>The Western Juggling Club</b> is a student club at the <a href="uwo.ca"
+	<b>The Western Juggling Club</b> is a student club at the <a href="http://uwo.ca"
 	>University of Western Ontario</a> that promotes juggling as a fun,
 	stress-relieving activity that helps to improve hand-eye coordination.
 	The club is suitable for jugglers of all skill levels, with learn-to-juggle
