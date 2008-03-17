@@ -3,9 +3,10 @@
 <h2>Executive</h2>
 <?
 $members = array
-	( array('Steven'  , 'Club President' , 'steve@com.com'   , '')
-	, array('Lindsay' , 'VP Finance'     , 'lindsay@com.com' , '')
-	, array('Sean'    , 'Alumni Advisor' , 'sean@com.com'    , 'Sean has been juggling with the club for 15 years. He will happily show you some diabolo or cigar box tricks, if you are interested.')
+	//      Name        Position           Bio
+	( array('Steven'  , 'Club President' , '')
+	, array('Lindsay' , 'VP Finance'     , '')
+	, array('Sean'    , 'Alumni Advisor' , 'Sean has been juggling with the club for 15 years. He will happily show you some diabolo or cigar box tricks, if you are interested.')
 	);
 
 ?>
@@ -17,8 +18,7 @@ $members = array
 			<? if (is_file($file)) { ?><img src="/<?= $file ?>" alt="<?=h($info[0])?>" /><? } ?>
 			<h3><?= h($info[0]) ?></h3>
 			<h4><?= h($info[1]) ?></h4>
-			<p><?=  h($info[3]) ?></p>	
-			<p><a href="mailto:<?=h($info[2])?>"><?=h($info[2])?></a></p>	
+			<p><?=  h($info[2]) ?></p>	
 		</div>
 	<? } ?>
 </div>
