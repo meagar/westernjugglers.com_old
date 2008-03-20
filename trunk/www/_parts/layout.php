@@ -1,4 +1,5 @@
 <?php
+
 include_once('_parts/schedule.php');
 
 define('GOOGLE_CALENDAR_URL', 'http://www.google.com/calendar/embed?src=4l2em5a68d2m7uijpjnc1qbtbo%40group.calendar.google.com&amp;ctz=America/New_York');
@@ -34,6 +35,9 @@ if ($flash != "")
 	<title>UWO Juggling Club</title>
 	<link rel="stylesheet" type="text/css" href="/_css/standard.css" />
 	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<meta name="keywords" content="juggle, juggling, jugglers, juggling club, western jugglers, western juggling club, university of western ontario, uwo juggling club, uiniversity of western ontario juggling club, balls, clubs, rings, diabolo, cigar boxes" />
+	<meta name="description" content="The University of Western Ontario Juggling Club" />
+	<meta name="author" content="Matthew Eagar" />
 </head>
 
 <body>
