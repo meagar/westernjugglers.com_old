@@ -25,14 +25,19 @@ body {
 	margin: 0 auto -100px;
 }
 
-#FlashBox {
+.FlashBox {
 	text-align:center;
-	color:#f00;
+	color:#f66;
 	font-weight:bold;
 	padding-right;
 	font-size:smaller;
 	margin:5px;
 }
+
+.FlashBox a {
+	color:#b44;
+}
+
 
 #Body {
 	position:relative;

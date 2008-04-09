@@ -1,9 +1,20 @@
 <? function yield_body() { ?>
 
-<h2>Meetings</h2>
+<h3>Meetings</h3>
+
+<div style="background:#eee; border:2px solid #777; margin:0 20px 20px; padding:0 10px;">
+	<h3 style="text-align:center">Summer Meetings</h3>
+	<p>Our official 2007-2008 meetings have ended, but many club members choose to meet <b>unofficially</b> during the summer.</p>
+
+	<p>Typically our Monday meetings continue at the UCC, either in the Atrium or on the Concrete Beach, while our Sunday meetings move to <a href="_gfx/gibbons.png">Gibbons Park</a> near the foot bridge.</p>
+	<p>In both cases, meetings are usually held <b>one hour earlier</b>, from <b>6pm to 8pm</b>.</p>
+	<p>Check the <?= GOOGLE_CAL_LINK ?> for meeting times</p>
+</div>
+
+
 <p>
-	Our club meetings are always held from <b>7pm to 9pm</b>, alternating between Monday
-	in the UCC Atrium and Sunday in Alumni Hall. Due to holidays and other
+	Our club meetings are always held from <span style="text-decoration:line-through; color:#666;"><b>7pm to 9pm</b> alternating between Monday
+	in the UCC Atrium and Sunday in Alumni Hall</span>. Due to holidays and other
 	interruptions, there might be some deviation from the Monday-Sunday
 	alternation, refer to the schedule to the left for concrete meeting dates.
 </p>

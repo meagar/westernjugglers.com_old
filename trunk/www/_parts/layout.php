@@ -20,7 +20,7 @@ $TocItems = array
 $flash = @file_get_contents('_data/flash');
 
 if ($flash != "")
-	$flash = '<div id="FlashBox">' . h($flash) . '</div>';
+	$flash = '<div id="FlashBox">' . $flash . '</div>';
 
 ?>
 <!-- Site Design and Layout by Matthew Eagar -->
@@ -67,6 +67,7 @@ if ($flash != "")
 			</div><!-- BodyContent -->
 
 			<div id="SideBar">
+				<p class="FlashBox">See <a href="/meetings">Meetings</a> for our summer schedule.</p>
 				<? RenderMeetingTable() ?>
 				<?= GOOGLE_CAL_LINK ?>
 			</div><!-- SideBar -->
