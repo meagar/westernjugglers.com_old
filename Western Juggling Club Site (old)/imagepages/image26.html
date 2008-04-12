@@ -1,0 +1,225 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Seanlightupballsc.JPG.jpeg</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="generator" content="Arles Image Web Page Creator 6.1.7">
+<meta http-equiv="imagetoolbar" content="no">
+<link rel="stylesheet" TYPE="text/css" HREF="image.css">
+<script language="JavaScript" type="text/javascript"><!--
+// Copyright 2001-2005 Digital Dutch (www.digitaldutch.com)
+
+function gotonewpage(what) {
+  value = what.options[what.selectedIndex].value;
+  if (value == "") return;
+  window.location.href = value;
+}
+
+var SecondsLeft   = 2;
+var Running       = true;
+var ShowStatus    = true;
+var OldStatus     = "";
+var NextImagePage = "";
+
+function SetStatusBar(StatusText) {
+  if ((OldStatus == "") && (ShowStatus == true)){
+    window.status = StatusText;
+  }
+  else {
+    OldStatus = StatusText;
+  }
+}
+
+function StartSlideShow() {
+  Running = true;
+  SetStatusBar("Slideshow started");
+  WriteCookie("SlideShowStopped", false);
+}
+
+function StopSlideShow() {
+  Running = false;
+  SetStatusBar("Slideshow stopped");
+  WriteCookie("SlideShowStopped", true);
+}
+
+function StartStop() {
+  if (Running == false) {
+    StartSlideShow();
+  }
+  else {
+    StopSlideShow();
+  }
+}
+
+function CountDown() {
+  if (Running == true) {
+
+    if (SecondsLeft > 0) {
+      SecondsLeft--;
+    }
+    else {
+      Running = false;
+      document.location = NextImagePage;
+    }
+
+    if (SecondsLeft == 0) {
+      SetStatusBar("Next image will automatically load in " + (SecondsLeft + 1) + " second");
+    }
+    else {
+      SetStatusBar("Next image will automatically load in " + (SecondsLeft + 1) + " seconds");
+    }
+  }
+
+  setTimeout("CountDown()",1000);
+}
+
+function ReadCookie(name, DefaultValue) {
+  var cookieValue = escape(DefaultValue);
+  var search = name + "=";
+
+  if(document.cookie.length > 0) {
+
+    offset = document.cookie.indexOf(search);
+
+    if (offset != -1) {
+
+      offset += search.length;
+      end = document.cookie.indexOf(";", offset);
+
+      if (end == -1) end = document.cookie.length;
+
+      cookieValue = unescape(document.cookie.substring(offset, end))
+    }
+
+  }
+
+  return cookieValue;
+}
+
+function WriteCookie(name, value) {
+  document.cookie = name + "=" + escape(value);
+}
+
+
+function InitializePage() {
+
+  NextImagePage = "image27.html";
+
+  if (ReadCookie("SlideShowStopped", "false") == "true") {
+    StopSlideShow();
+  }
+  else {
+    StartSlideShow();
+  };
+
+  CountDown();
+}
+
+function PageLoaded() {
+  InitializePage();
+
+  imagepreload = new Image;
+  imagepreload.src = "../images/Seanlightupballsd.JPG.jpeg";
+}
+
+window.onload=PageLoaded;
+//--></script>
+
+</head>
+
+<body>
+<!-- This page was generated with Arles Image Web Page Creator -->
+<!-- For more information go to: www.digitaldutch.com          -->
+
+
+
+
+
+<!-- BeginNavigationTop -->
+<table width="100%">
+  <tr>
+    <td align="center"><!-- BeginNavigationGroup -->
+<table cellpadding="3" cellspacing="0" border="0">
+  <tr>
+    <!-- BeginNavigationElement --><td><a class="navigationtext" href="javascript:StartStop();" onMouseOver="OldStatus=window.status; window.status='Start/Stop slideshow'; return true;" onMouseOut="window.status=OldStatus; OldStatus=''; return true;"><img src="../arlesimages/tsign_purple_startstop.gif" border="0" width="30" height="30" alt="Start/Stop"></a></td><!-- EndNavigationElement -->
+    
+    <!-- BeginNavigationElement --><td><a href="../index2.html"><img src="../arlesimages/tsign_purple_index.gif" border="0" width="30" height="30" alt="Index page"></a></td><!-- EndNavigationElement -->
+    <!-- BeginNavigationElement --><td><a href="image1.html"><img src="../arlesimages/tsign_purple_first.gif" border="0" width="30" height="30" alt="[&lt;&lt; First]"></a></td><!-- EndNavigationElement -->
+    <!-- BeginNavigationElement --><td><a href="image25.html"><img src="../arlesimages/tsign_purple_previous.gif" border="0" width="30" height="30" alt="[&lt; Previous]"></a></td><!-- EndNavigationElement -->
+    <!-- BeginNavigationElement --><td><a href="image27.html"><img src="../arlesimages/tsign_purple_next.gif" border="0" width="30" height="30" alt="[Next &gt;]"></a></td><!-- EndNavigationElement -->
+    <!-- BeginNavigationElement --><td><a href="image32.html"><img src="../arlesimages/tsign_purple_last.gif" border="0" width="30" height="30" alt="[Last &gt;&gt;]"></a></td><!-- EndNavigationElement -->
+  </tr>
+</table>
+<!-- EndNavigationGroup -->
+
+<!-- BeginNavigationGroup -->
+<table cellpadding="3" cellspacing="0" border="0">
+  <tr>
+    <!-- BeginNavigationElement --><td><form style="margin-bottom:0;" name="form1" action=""><select name="imagelist" class="imagequicklist" onChange="gotonewpage(this)">
+  <option value="image1.html">abstractjuggler</option>
+  <option value="image2.html">Cam7clubs</option>
+  <option value="image3.html">Chris teaching</option>
+  <option value="image4.html">ClownShoes</option>
+  <option value="image5.html">Combat</option>
+  <option value="image6.html">DanHiggins</option>
+  <option value="image7.html">Dennis</option>
+  <option value="image8.html">DonHiggins</option>
+  <option value="image9.html">EricDiabolo</option>
+  <option value="image10.html">firepoi3</option>
+  <option value="image11.html">Jamie & Denise passing</option>
+  <option value="image12.html">Juggling Club Photos 2004a</option>
+  <option value="image13.html">Juggling Club Photos 2004b</option>
+  <option value="image14.html">Juggling Club Photos 2004c</option>
+  <option value="image15.html">Juggling Club Photos 2004d</option>
+  <option value="image16.html">JugglingConcreteBeach</option>
+  <option value="image17.html">MANDYJUGGLING</option>
+  <option value="image18.html">meeting12005a</option>
+  <option value="image19.html">meeting12005b</option>
+  <option value="image20.html">PassingBalls</option>
+  <option value="image21.html">SeanatIJAfest</option>
+  <option value="image22.html">Seanflamingboxes</option>
+  <option value="image23.html">Seanflamingdevilstick</option>
+  <option value="image24.html">Seanlightupballsa.JPG</option>
+  <option value="image25.html">Seanlightupballsb.JPG</option>
+  <option selected value="image26.html">Seanlightupballsc.JPG</option>
+  <option value="image27.html">Seanlightupballsd.JPG</option>
+  <option value="image28.html">SteveBounceRola</option>
+  <option value="image29.html">SteveCamPass7</option>
+  <option value="image30.html">Steveheadroll</option>
+  <option value="image31.html">SteveTorches</option>
+  <option value="image32.html">Toss up photo</option>
+</select></form></td><!-- EndNavigationElement -->
+    
+    <!-- BeginNavigationElement --><td><span class="navigationtext">of 32</span></td><!-- EndNavigationElement -->
+  </tr>
+</table>
+<!-- EndNavigationGroup -->
+</td>
+  </tr>
+</table>
+<!-- EndNavigationTop -->
+
+<div align="center">
+<table cellspacing="0" cellpadding="0" border="0">
+  <tr align="center">
+    <td>
+      <a href="image27.html"><img src="../images/Seanlightupballsc.JPG.jpeg" alt="Seanlightupballsc.JPG.jpeg" title="Seanlightupballsc.JPG.jpeg" width="500" height="333" border="0"></a>
+    </td>
+  </tr>
+  <tr align="center">
+    <td>
+      <div class="imagetitle">Seanlightupballsc.JPG.jpeg</div>
+    </td>
+  </tr>
+</table>
+</div>
+
+
+
+
+
+<p align="center"><br>
+<a href="http://www.digitaldutch.com/arles/" target="_top" style="font-size: 10pt;">Generated with Arles Image Web Page Creator</a>
+</p>
+</body>
+</html>
