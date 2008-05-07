@@ -4,11 +4,9 @@
 
 <div style="background:#eee; border:2px solid #777; margin:0 20px 20px; padding:0 10px;">
 	<h3 style="text-align:center">Summer Meetings</h3>
-	<p>Our official 2007-2008 meetings have ended, but many club members choose to meet <b>unofficially</b> during the summer.</p>
+	<p>Our official 2007-2008 meetings have ended, but many club members continue to meet <b>unofficially</b> durring the summer.</p>
 
-	<p>Typically our Monday meetings continue at the UCC, either in the Atrium or on the Concrete Beach, while our Sunday meetings move to <a href="_gfx/gibbons.png">Gibbons Park</a> near the foot bridge.</p>
-	<p>In both cases, meetings are usually held <b>one hour earlier</b>, from <b>6pm to 8pm</b>.</p>
-	<p>Check the <?= GOOGLE_CAL_LINK ?> for meeting times</p>
+	<p>Monday meetings continue at the UCC, either in the Atrium or on the Concrete Beach, while Sunday meetings move to <a href="_gfx/gibbons.png">Gibbons Park</a> near the foot bridge.  In both cases, meetings are held <b>one hour earlier</b>, from <b>6pm to 8pm</b>.</p>
 </div>
 
 

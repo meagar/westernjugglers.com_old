@@ -43,7 +43,9 @@ function RenderMeetingTable() {
 ?>
 	<table class="Schedule">
 		<? $dateList = array() ?>
-		<tr><th colspan="2"><span style="color:#666;text-decoration:line-through">2007 - 2008 Schedule</span><br/>Done!</th></tr>
+		<tr><th colspan="2">2008 Summer Schedule</th></tr>
+		<tr><th colspan="2">
+				<span style="color:#f00; font-weight:bold">6pm - 8pm</span></th></tr>
 		<tr><th>Date</th><th>Location</th></tr>
 		<?
 
