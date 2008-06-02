@@ -2,7 +2,14 @@
 
 return  array 
 	# new Event(name, date, location, url, notes)
-	( /*new Event
+	( new Event
+		( '61st IJA Festival'
+		, 'July 14-20, 2008'
+		, 'Lexington, Kentucky'
+		, 'http://www.juggle.org/festival/2008/'
+		, "Roughly 7 hours 45 minutes from London. It's a full week long, no crash space so plan on renting a hotel room for a week.  If Matt goes he'll have space for 3 more, Sean is accepting no additional passengers.  It's $189 to get in if you pre-register before June 15th, when the price goes up to $229."
+	)
+	/*new Event
 		( 'Waterloo Juggling Festival'
 		, 'March 15 & 16, 2008'
 		, 'University of Waterloo, Waterloo Ontario'
