@@ -2,7 +2,7 @@
 	# new Link(label, url)
 	return array
 		( 'Organizations / Clubs / Festivals' => array
-			( new Link('International Juggling Association', 'http://www.juggle.org/')
+			( new Link('International Jugglers\' Association', 'http://www.juggle.org/')
 			, new Link('Queen\'s / Kingston Juggling Club', 'http://kingstonjugglers.org/')
 			, new Link('World Juggling Federation', 'http://www.thewjf.com')
 			, new Link('Toronto Juggling Club', 'http://www.jugglebum.com/torontoclub.html')
