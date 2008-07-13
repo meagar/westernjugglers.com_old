@@ -2,7 +2,7 @@
 
 <h3>Meetings</h3>
 
-<div style="background:#eee; border:2px solid #777; margin:0 20px 20px; padding:0 10px;">
+<div style="background:#eee; border:2px solid #777; float:right; width:250px; margin:0 20px 20px; padding:0 10px;">
 	<h3 style="text-align:center">Summer Meetings</h3>
 	<p>Our official 2007-2008 meetings have ended, but many club members continue to meet <b>unofficially</b> durring the summer.</p>
 

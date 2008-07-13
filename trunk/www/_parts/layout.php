@@ -7,6 +7,7 @@ define('GOOGLE_CAL_LINK', '<a href="http://www.google.com/calendar/embed?src=4l2
 
 $TocItems = array
 	( 'Home' => 'home'
+	, 'Calendar' => 'calendar'
 	, 'Meetings' => 'meetings'
 	, 'Executive' => 'executive'
 #	, 'Maps' => 'maps.php'
