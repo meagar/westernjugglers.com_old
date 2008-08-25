@@ -29,8 +29,8 @@ if ($flash != "")
 <!-- meagar@gmail.com                        -->
 <!-- Feb 2008                                -->
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
-	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-trans.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 	<title>UWO Juggling Club</title>
@@ -42,54 +42,56 @@ if ($flash != "")
 </head>
 
 <body>
-	<div id="Wrapper">
-		<div id="Header">
-			<h1><a href="/home"><span>The University of Western Ontario Juggling Club</span></a></h1>
-
-			<div id="Toc">
-				<ul><?
-					foreach ($TocItems as $label => $page) {
-						if (str_replace('.php', '', basename($_SERVER['SCRIPT_FILENAME'])) == $page) {
-							?><li class="Active"><a href="/<?= $page ?>"><span><?= $label ?></span></a></li><?
-						} else {
-							?><li><a href="/<?= $page ?>"><span><?= $label ?></span></a></li><?
+	<table id="Layout">
+		<tr>
+			<td id="Header" colspan="2">
+				<div class="Wrapper">
+					<h1><a href="/home"><span>The University of Western
+					Ontario Juggling Club</span></a></h1>
+					
+					<ul id="Nav"><? // Section Navigation
+						foreach ($TocItems as $label => $page) {
+							if (str_replace('.php', ''
+							, basename($_SERVER['SCRIPT_FILENAME'])) == $page) {
+								?><li class="Active"><?
+							} else {
+								?><li><?
+							}
+							?><a href="/<?= $page ?>"><span><?= $label ?></span></a></li><?
 						}
-					}
-				?></ul>
-			</div>
-		</div>
+					?></ul>
+				</div>
+			</td>
+		</tr>
 
-		<div id="Body">
-
-			<div id="BodyContent">
+		<tr>
+			<td id="SideBar">
+				<? RenderMeetingTable() ?>
+				<?= GOOGLE_CAL_LINK ?>
+			</td>
+			
+			<td id="Body">
 				<?= $flash ?>
 				<? yield_body() ?>
 				<div style="clear:both;"></div>
-			</div><!-- BodyContent -->
+			</td>
+		</tr>
 
-			<div id="SideBar">
-				<? RenderMeetingTable() ?>
-				<?= GOOGLE_CAL_LINK ?>
-			</div><!-- SideBar -->
+		<tr>
+			<td colspan="2" id="Footer">
+				<span>&copy; 2008 UWO Juggling Club</span>
+				<p><!-- W3C Validation Icons -->
+					<a href="http://validator.w3.org/check?uri=referer"><img
+						src="http://www.w3.org/Icons/valid-xhtml10"
+						alt="Valid XHTML 1.0 Strict" /></a>
 
-		</div><!-- Body -->
-
-		<div id="Push"></div>
-	</div><!-- Wrapper -->
-
-	<div id="Footer">
-		<span>&copy; 2008 UWO Juggling Club</span>
-		<p><!-- W3C Validation Icons -->
-			<a href="http://validator.w3.org/check?uri=referer"><img
-        src="http://www.w3.org/Icons/valid-xhtml10"
-				alt="Valid XHTML 1.0 Strict" /></a>
-
-			<a href="http://jigsaw.w3.org/css-validator/check/referer"><img
-				src="http://jigsaw.w3.org/css-validator/images/vcss" 
-				alt="Valid CSS!" /></a> 
-		</p>
-	</div>
-
+					<a href="http://jigsaw.w3.org/css-validator/check/referer"><img
+						src="http://jigsaw.w3.org/css-validator/images/vcss" 
+						alt="Valid CSS!" /></a> 
+				</p>
+			</td>
+		</tr>
+	</table><!-- Layout -->
 </body>
 </html>
 <?

@@ -7,22 +7,29 @@ function drawThumbnail($image) {
 }
 
 function showAllGalleries() {
-
+	?>
+	<h2>Gallery</h2>
+	<p>
+		Below are some photos of club meetings or events which club members have attended.
+	</p>
+	<?
 	foreach (getGalleries() as $gallery) {
 		$images = $gallery->images;
 		$href="/gallery/?" . urlencode($gallery->name);
 		?>
 			<div class="GalleryBrief">
-				<h3><a href="<?= $href?>"><?= $gallery->niceName ?></a></h3>
+				<h3><a href="<?= $href?>"><?= $gallery->niceName ?>
+				(<?= count($images) ?> images)</a></h3>
 	
 				<div class="Thumbnails">
-				<?
+					<?
 					$max = (count($images) > 4 ? 4 : count($images));
 					for ($i = 0; $i < $max; ++$i)
 						drawThumbnail($images[$i]);
-				?>
-				<p><a href="<?=$href?>"><?= count($images) - $max ?> more images</a></p>
+					?>
 				</div>
+
+				<!--<p><a href="<?=$href?>"><?= count($images) - $max ?> more images</a></p>-->
 			</div>
 		<?
 	}
@@ -34,7 +41,7 @@ function showGallery($name) {
 			continue;
 		?>
 
-		<h3><?= str_replace('_', ' ', $gallery->name) ?></h3>
+		<h2>Gallery - <?= str_replace('_', ' ', $gallery->name) ?></h3>
 		<a href="gallery">Back</a><br/>
 
 		<div class="Description"><?=h($gallery->desc)?></div>
@@ -60,7 +67,7 @@ function yield_body() {
 	}
 
 	?>
-	<h2>Gallery</h2>
+
 	<div class="Gallery">
 	<?	
 	if (isset($gallery))

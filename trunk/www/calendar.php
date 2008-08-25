@@ -8,7 +8,7 @@
 	If you have an account with Google, you can add this calendar to your calendar.google.com page, and configure custom notifications via email or text-message.
 </p>
 
-<iframe src="http://www.google.com/calendar/embed?src=4l2em5a68d2m7uijpjnc1qbtbo%40group.calendar.google.com&ctz=America/New_York" style="border: 0; width:100%; height:700px;" frameborder="0" scrolling="no"></iframe>
+<iframe src="http://www.google.com/calendar/embed?src=4l2em5a68d2m7uijpjnc1qbtbo%40group.calendar.google.com&amp;ctz=America/New_York" style="border: 0; width:100%; height:700px;" frameborder="0" scrolling="no"></iframe>
 
 
 <? } include('_parts/layout.php') ?>
