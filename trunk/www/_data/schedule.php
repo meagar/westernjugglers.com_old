@@ -3,29 +3,20 @@
 	# map of locations to an array of dates
 	# Dates should be parsable by date() ie, (Month DD, YYYY)
 	return array
-	( 'Gibbons Park' => array
-		( 'May 25, 2008'
-		, 'June 8, 2008'
-		, 'June 22, 2008'		
-		, 'July 6, 2008'
-		, 'July 20, 2008'
-		, 'August 17, 2008'
+	( 'Alumni Hall' => array
+		( 'September 21, 2008' 
+		,	'September 28, 2008'
+		, 'October 5, 2008'
+		, 'November 2, 2008'
+		, 'November 16, 2008'
+		, 'November 30, 2008'
 		)
 	, 'UCC Atrium' => array
-		( 'May 12, 2008'
-		, 'May 19, 2008'
-		, 'June 2, 2008'
-		, 'June 16, 2008'
-		, 'June 30, 2008'
-		, 'July 14, 2008'
-		, 'July 28, 2008'
-		, 'August 4, 2008'
-		, 'August 11, 2008'
-		, 'August 25, 2008'
-		, 'September 1, 2008'
-		, 'September 8, 2008'
-		, 'September 15, 2008'
-		, 'September 22, 2008'
+		( 'October 13, 2008'
+		, 'October 20, 2008'
+		, 'October 27, 2008'
+		, 'November 10, 2008'
+		, 'November 24, 2008'
 		)
 	);	
 
