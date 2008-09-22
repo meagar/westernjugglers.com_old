@@ -4,8 +4,8 @@
 <?
 $members = array
 	//      Name        Position           Bio
-	( array('Steven'  , 'Club President' , '')
-	, array('Lindsay' , 'VP Finance'     , '')
+	( array('Keith'   , 'Club President' , '')
+	, array('Steven'  , 'VP Finance'     , '')
 	, array('Sean'    , 'Alumni Advisor' , 'Sean has been juggling with the club for 15 years. He will happily show you some diabolo or cigar box tricks, if you are interested.')
 	);
 
