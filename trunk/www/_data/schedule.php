@@ -5,11 +5,16 @@
 	return array
 	( 'Alumni Hall' => array
 		( 'September 21, 2008' 
-		,	'September 28, 2008'
+		, 'September 28, 2008'
 		, 'October 5, 2008'
 		, 'November 2, 2008'
 		, 'November 16, 2008'
 		, 'November 30, 2008'
+		, 'January 11, 2009'
+		, 'January 25, 2009'
+		, 'February 8, 2009'
+		, 'March 1, 2009'
+		, 'March 15, 2009'
 		)
 	, 'UCC Atrium' => array
 		( 'October 13, 2008'
@@ -17,6 +22,11 @@
 		, 'October 27, 2008'
 		, 'November 10, 2008'
 		, 'November 24, 2008'
+		, 'January 5, 2009'
+		, 'January 19, 2009'
+		, 'February 2, 2009'
+		, 'February 23, 2009'
+		, 'March 9, 2009'
 		)
 	);	
 
