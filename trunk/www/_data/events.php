@@ -3,6 +3,13 @@
 return  array 
 	# new Event(name, date, location, url, notes)
 	( new Event
+		( 'RIT Spring Juggle-In'
+		, 'April 17-19 2009'
+		, 'RIT Clark Gym (Building 3), Rochester Institute of Technology, Rochester NY'
+		, 'http://www.rit.edu/sg/jugglingclub/jugglein/'
+		, 'An amazing annual festival within a relatively  easy 4 hour drive of London.  Matt and Sean will both attend, and there will be car space for those interested in coming with.'
+		)
+	 , 	new Event
 		( 'TURBO418'
 		, 'January 9 - 11, 2009'
 		, 'l\'Ecole de cirque de Quebec, 750 2nd avenue, Quebec'
