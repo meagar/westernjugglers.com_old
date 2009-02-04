@@ -41,7 +41,7 @@ function RenderMeetingTable() {
 
 	$schedule = getSchedule();
 ?>
-	<table class="Schedule">
+	<table class="Schedule" id="Schedule">
 		<? $dateList = array() ?>
 		<tr><th colspan="2">2008-2009 Meetings</th></tr>
 		<tr><th colspan="2">
@@ -65,6 +65,8 @@ function RenderMeetingTable() {
 
 			if ($date >= time()) {
 				if ($class == 'Past') {
+					# insert the hide/show bar
+					?><tr class="Hide"><td colspan="2"><a href="#hide" onclick="javascript:toggleSchedule(); return false;">&lt;&lt; Show Past Events &gt;&gt;</a></td></tr><?
 					$class = 'Next';
 					$dateFmt = '* ' . $dateFmt;
 				} else {

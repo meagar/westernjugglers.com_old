@@ -1,7 +1,7 @@
 <? require_once('_include/gallery.php');
 
 function drawThumbnail($image) {
-	?><div class="Thumbnail"><a href="/<?= $image->file ?>"><img
+	?><div class="Thumbnail"><a href="picture.php?<?= $image->file ?>"><img
 		src="/<?= $image->thumb?>" alt=""  /></a></div><?
 
 }
@@ -18,8 +18,7 @@ function showAllGalleries() {
 		$href="/gallery/?" . urlencode($gallery->name);
 		?>
 			<div class="GalleryBrief">
-				<h3><a href="<?= $href?>"><?= $gallery->niceName ?>
-				(<?= count($images) ?> images)</a></h3>
+				<h3><a href="<?= $href?>"><?= $gallery->niceName ?>(<?= count($images) ?> images)</a></h3>
 	
 				<div class="Thumbnails">
 					<?

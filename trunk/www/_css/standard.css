@@ -202,6 +202,24 @@ table.Schedule td.ucc-atrium{ color:#a00; }
 table.Schedule td.alumni-hall { color:#00b; }
 table.Schedule td.gibbons-park { color:#00b; }
 
+table.Schedule tr.Hide td {
+	padding:0;
+}
+
+table.Schedule tr.Hide a {
+	color:#555;
+	font-size:smaller;
+	font-weight:bold;
+	display:block;
+	text-decoration:none;
+	background:#bbb;
+	padding:1px;
+}
+
+table.Schedule tr.Hide a:hover {
+	color:#000;
+}
+
 /*** Executive ***/
 
 div.Member {
