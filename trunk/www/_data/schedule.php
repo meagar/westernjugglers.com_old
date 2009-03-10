@@ -15,6 +15,7 @@
 		, 'February 8, 2009'
 		, 'March 1, 2009'
 		, 'March 15, 2009'
+		, 'March 22, 2009'
 		)
 	, 'UCC Atrium' => array
 		( 'October 13, 2008'
@@ -27,6 +28,7 @@
 		, 'February 2, 2009'
 		, 'February 23, 2009'
 		, 'March 9, 2009'
+		, 'March 30, 2009'
 		)
 	);	
 
