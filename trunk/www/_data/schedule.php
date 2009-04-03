@@ -2,6 +2,12 @@
 
 	# map of locations to an array of dates
 	# Dates should be parsable by date() ie, (Month DD, YYYY)
+
+	return array
+	(	'UCC Atrium' => array
+		( 'April 5 2009' )
+	);
+	/* 2008/2009
 	return array
 	( 'Alumni Hall' => array
 		( 'September 21, 2008' 
@@ -31,7 +37,7 @@
 		, 'March 30, 2009'
 		)
 	);	
-
+	*/
 	/*  2007/2008
  	return array
 	( 'Alumni Hall' => array
