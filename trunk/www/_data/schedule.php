@@ -7,6 +7,7 @@
 	(	'UCC Atrium' => array
 		( 'April 5 2009'
 		, 'April 19 2009'
+		, 'April 26 2009'
 		)
 	);
 	/* 2008/2009
