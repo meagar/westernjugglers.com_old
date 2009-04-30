@@ -5,9 +5,14 @@
 
 	return array
 	(	'UCC Atrium' => array
-		( 'April 5 2009'
-		, 'April 19 2009'
-		, 'April 26 2009'
+		( 'April 5, 2009'
+		, 'April 19, 2009'
+		, 'April 26, 2009'
+		, 'May 3, 2009'
+		, 'May 10, 2009'
+		, 'May 27, 2009'
+		, 'May 24, 2009'
+		, 'May 31, 2009'
 		)
 	);
 	/* 2008/2009
