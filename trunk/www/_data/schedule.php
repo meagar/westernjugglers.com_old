@@ -13,6 +13,19 @@
 		, 'May 18, 2009'
 		, 'May 24, 2009'
 		, 'May 31, 2009'
+		, 'June 7, 2009'
+		, 'June 14, 2009'
+		, 'June 21, 2009'
+		, 'June 28, 2009'
+		, 'July 5, 2009'
+		, 'July 12, 2009'
+		, 'July 19, 2009'
+		, 'July 26, 2009'
+		, 'August 2, 2009'
+		, 'August 9, 2009'
+		, 'August 16, 2009'
+		, 'August 23, 2009'
+		, 'August 30, 2009'
 		)
 	);
 	/* 2008/2009
@@ -32,7 +45,8 @@
 		, 'March 22, 2009'
 		)
 	, 'UCC Atrium' => array
-		( 'October 13, 2008'
+		( 'September 15, 2008' 
+		, 'October 13, 2008'
 		, 'October 20, 2008'
 		, 'October 27, 2008'
 		, 'November 10, 2008'
