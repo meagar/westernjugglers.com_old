@@ -21,7 +21,7 @@
 		, 'July 12, 2009'
 		, 'July 19, 2009'
 		, 'July 26, 2009'
-		, 'August 2, 2009'
+		, 'August 3, 2009'
 		, 'August 9, 2009'
 		, 'August 16, 2009'
 		, 'August 23, 2009'
