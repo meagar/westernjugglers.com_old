@@ -66,7 +66,7 @@ function RenderMeetingTable() {
 			if ($date >= time()) {
 				if ($class == 'Past') {
 					# insert the hide/show bar
-					?><tr class="Hide"><td colspan="2"><a href="#hide" onclick="javascript:toggleSchedule(); return false;">&lt;&lt; Show Past Events &gt;&gt;</a></td></tr><?
+					?><tr class="Hide"><td colspan="2"><a href="#hide" onclick="javascript:toggleSchedule(); return false;">+ Show Past Events +</a></td></tr><?
 					$class = 'Next';
 					$dateFmt = '* ' . $dateFmt;
 				} else {
