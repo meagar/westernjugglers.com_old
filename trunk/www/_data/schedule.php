@@ -26,7 +26,10 @@
 		, 'August 16, 2009'
 		, 'August 23, 2009'
 		, 'August 30, 2009'
-		, 'September 14, 2009'
+		, 'September 7, 2009'
+		, 'September 13, 2009'
+		, 'September 20, 2009'
+		, 'September 27, 2009'
 		)
 	);
 	/* 2008/2009
