@@ -4,6 +4,37 @@
 	# Dates should be parsable by date() ie, (Month DD, YYYY)
 
 	return array
+	(	'Alumni Hall' => array
+		( 'September 27, 2009'
+		, 'October 4, 2009'
+		, 'November 1, 2009'
+		, 'November 15, 2009'
+		, 'November 22, 2009'
+		, 'January 10, 2010'
+		, 'January 24, 2010'
+		, 'February 28, 2010'
+		, 'March 14, 2010'
+		, 'March 21, 2010'
+		)
+	, 'UCC Atrium' => array
+		( 'October 12, 2009'
+		, 'October 19, 2009'
+		, 'October 26, 2009'
+		, 'November 9, 2009'
+		, 'November 30, 2009'
+		, 'December 7, 2009'
+		, 'January 4, 2010'
+		, 'January 18, 2010'
+		, 'February 1, 2010'
+		, 'February 8, 2010'
+		, 'February 22, 2010'
+		, 'March 8, 2010'
+		, 'March 29, 2010'
+		)
+	);
+
+	/* 2009 summer schedule
+	return array
 	(	'UCC Atrium' => array
 		( 'April 5, 2009'
 		, 'April 19, 2009'
@@ -32,7 +63,8 @@
 		, 'September 27, 2009'
 		)
 	);
-	/* 2008/2009
+
+	 2008/2009
 	return array
 	( 'Alumni Hall' => array
 		( 'September 21, 2008' 
