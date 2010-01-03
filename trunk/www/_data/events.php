@@ -19,7 +19,7 @@ return  array
 	, new Event
 		( 'Montreal Juggling Festival'
 		, 'May 1-3, 2009'
-		, 'Ecole Lucien Pagé, Montréal, Québec, ada'
+		, 'Ecole Lucien Page, Montreal, Quebec, Canada'
 		, 'http://jaq.qc.ca/English/index_en.asp'
 		, 'A really amazing festival, not quite as far as the Quebec City festival.  There will be breakfast pizza.'
 		)
