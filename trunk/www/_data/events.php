@@ -6,7 +6,7 @@ return  array
 		( 'Waterloo Juggling Festival'
 		, 'March 6-7 2010'
 		, 'Student Life Centre (SLC) of the University of Waterloo, Kitchener Waterloo'
-		, ''
+		, 'http://juggling.uwaterloo.ca/festival.html'
 		, 'The UW Festival is a great local festival, an easy 1.5 hour drive from London.  Matt will be driving with room for two or three more people, but only on the trip there - he\'ll be heading on to Toronto for a few days immediately after the festival.  Sean usually drives too, talk with him to arrange car space.'
 		)
 	, new Event
