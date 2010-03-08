@@ -18,7 +18,7 @@ return  array
 		)
 	, new Event
 		( 'WJF 6'
-		, 'July 20-25 2010'
+		, 'July 21-25 2010'
 		, 'Riviera Hotel in Las Vegas, NV'
 		, 'http://thewjf.com/WJF6/wjf6_home.php'
 		, 'The WJF festival will be back-to-back with the IJA festival this year, and close enough to make attending both a possibility.  Matt and Sean currently plan to attend both festivals.'
