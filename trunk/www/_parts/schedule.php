@@ -12,13 +12,13 @@ function MeetingsByDate() {
 }
 
 function RenderNextMeeting() {
-		
 	$dateList = MeetingsByDate();
 	$keys = array_keys($dateList);
 	sort($keys);
 	foreach ($keys as $date) {
 		if ($date > time()) {
-			?><div id="NextMeeting"><a href="meetings.php">Next meeting: <?= date('F d, Y', $date) ?> @ <?= $dateList[$date] ?></a></div><?
+			?><div id="NextMeeting"><a href="meetings.php">Next meeting: 
+			<?= date('F d, Y', $date), '@', $dateList[$date] ?></a></div><?
 			return;
 		}
 	}
@@ -41,11 +41,30 @@ function RenderMeetingTable() {
 
 	$schedule = getSchedule();
 ?>
+	<script type="text/javascript">
+		//<![CDATA[
+		$(function() {
+			$('tr.Hide').show();
+			$('#Schedule tr.Past').hide();
+
+			$('#toggle-past').click(function(event) {
+				event.preventDefault();
+				$('#Schedule tr.Past').toggle();
+				$(this).text($(this).text() == '+ Show Past Events +'
+					? '- Hide Past Events -'
+					: '+ Show Past Events +'
+				);
+			});
+		});	
+		//]]>		
+	</script>
+
 	<table class="Schedule" id="Schedule">
 		<? $dateList = array() ?>
 		<tr><th colspan="2">2009 - 2010 Meetings</th></tr>
 		<tr><th colspan="2">
-				<span style="color:#000; font-weight:bold; color:#f00">7pm - 9pm</span></th></tr>
+			<span style="color:#000; font-weight:bold; color:#f00"
+			>7pm - 9pm</span></th></tr>
 		<tr><th>Date</th><th>Location</th></tr>
 		<?
 
@@ -66,7 +85,8 @@ function RenderMeetingTable() {
 			if ($date >= time()) {
 				if ($class == 'Past') {
 					# insert the hide/show bar
-					?><tr class="Hide"><td colspan="2"><a href="#hide" onclick="javascript:toggleSchedule(); return false;">+ Show Past Events +</a></td></tr><?
+					?><tr class="Hide" style="display:none"><td colspan="2"><a id="toggle-past" href="#"
+							>+ Show Past Events +</a></td></tr><?
 					$class = 'Next';
 					$dateFmt = '* ' . $dateFmt;
 				} else {

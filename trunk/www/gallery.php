@@ -2,8 +2,7 @@
 
 function drawThumbnail($image) {
 	?><div class="Thumbnail"><a href="/picture.php?<?= $image->file ?>"><img
-		src="/<?= $image->thumb?>" alt=""  /></a></div><?
-
+		src="/<?= $image->thumb?>" alt="" /></a></div><?
 }
 
 function showAllGalleries() {
@@ -15,20 +14,21 @@ function showAllGalleries() {
 	<?
 	foreach (getGalleries() as $gallery) {
 		$images = $gallery->images;
-		$href="/gallery/?" . urlencode($gallery->name);
+		$href = '/gallery/?' . urlencode($gallery->name);
 		?>
 			<div class="GalleryBrief">
-				<h3><a href="<?= $href?>"><?= $gallery->niceName ?>(<?= count($images) ?> images)</a></h3>
+				<h3><a href="<?= $href?>"><?= $gallery->niceName ?>
+					(<?= count($images) - 4 ?> more images)</a></h3>
 	
 				<div class="Thumbnails">
 					<?
-					$max = (count($images) > 4 ? 4 : count($images));
-					for ($i = 0; $i < $max; ++$i)
-						drawThumbnail($images[$i]);
+					for($i = 0; $i < 4 && $i < count($images); ++$i)
+						drawThumbnail($images[$i]);	
 					?>
 				</div>
-
-				<!--<p><a href="<?=$href?>"><?= count($images) - $max ?> more images</a></p>-->
+				<? if (false) { ?>
+					<p><a href="<?=$href?>"><?= count($images) - $max ?> more images</a></p>
+				<? } ?>
 			</div>
 		<?
 	}
@@ -54,25 +54,21 @@ function showGallery($name) {
 	}
 }
 
-
 function yield_body() {
-
 	# Parse our input param, if any
 	if (count($_GET) == 1) {
 		$keys = array_keys($_GET);
 		$gallery = basename($keys[0]);
-		if (!is_dir('_gallery/' . $gallery))
+		
+		if (!is_dir("_gallery/$gallery"))
 			unset($gallery);
 	}
 
-	?>
-
-	<div class="Gallery">
-	<?	
+	echo '<div class="Gallery">';
 	if (isset($gallery))
 		showGallery($gallery);
 	else
 		showAllGalleries();
-	?>
-	</div>
-<? } include('_parts/layout.php') ?>
+	echo '</div>';
+
+} include('_parts/layout.php');

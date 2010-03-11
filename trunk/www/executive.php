@@ -6,7 +6,9 @@ $members = array
 	//      Name        Position           Bio
 	( array('Keith'   , 'Club President' , '')
 	, array('Steven'  , 'VP Finance'     , '')
-	, array('Sean'    , 'Alumni Advisor' , 'Sean has been juggling with the club for 15 years. He will happily show you some diabolo or cigar box tricks, if you are interested.')
+	, array('Sean'    , 'Alumni Advisor' 
+	, 'Sean has been juggling with the club for 15 years. He will happily show 
+		you some diabolo or cigar box tricks, if you are interested.')
 	);
 
 ?>
@@ -15,7 +17,9 @@ $members = array
 	<? foreach ($members as $info) {
 		$file = '_gfx/members/' . strtolower($info[0]) . '.jpg';	?>
 		<div class="Member">
-			<? if (is_file($file)) { ?><img src="/<?= $file ?>" alt="<?=h($info[0])?>" /><? } ?>
+			<? if (is_file($file)) { ?>
+				<img src="/<?= $file ?>" alt="<?=h($info[0])?>" />
+			<? } ?>
 			<h3><?= h($info[0]) ?></h3>
 			<h4><?= h($info[1]) ?></h4>
 			<p><?=  h($info[2]) ?></p>	
@@ -23,5 +27,5 @@ $members = array
 	<? } ?>
 </div>
 
-<? } include('_parts/layout.php') ?>
+<? } include('_parts/layout.php'); ?>
 

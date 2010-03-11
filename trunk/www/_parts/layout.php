@@ -39,10 +39,10 @@ if ($flash != "")
 	<meta name="keywords" content="juggle, juggling, jugglers, juggling club, western jugglers, western juggling club, university of western ontario, uwo juggling club, uiniversity of western ontario juggling club, balls, clubs, rings, diabolo, cigar boxes" />
 	<meta name="description" content="The University of Western Ontario Juggling Club" />
 	<meta name="author" content="Matthew Eagar" />
-	<script type="text/javascript" src="scripts/toggleSchedule.js"></script>
+	<script type="text/javascript" src="scripts/jquery-1.4.2.min.js"></script>
 </head>
 
-<body onload="javascript: toggleSchedule()">
+<body>
 	<table id="Layout">
 		<tr>
 			<td id="Header" colspan="2">
