@@ -1,5 +1,8 @@
-<? function yield_body() { ?>
-<? require_once('include/link.php') ?>
+<?php
+
+require_once('include/link.php');
+
+function yield_body() { ?>
 
 <div id="Links">
 

@@ -1,4 +1,6 @@
-<? require_once('include/gallery.php');
+<?php
+
+require_once('include/gallery.php');
 
 function drawThumbnail($image) {
 	?><div class="Thumbnail"><a href="/picture.php?<?= $image->file ?>"><img
@@ -12,12 +14,12 @@ function showAllGalleries() {
 		Below are some photos of club meetings or events which club members have attended.
 	</p>
 	<?
-	foreach (getGalleries() as $gallery) {
-		$images = $gallery->images;
-		$href = '/gallery/?' . urlencode($gallery->name);
+	foreach (getGalleries() as $g) {
+		$images = $g->images;
+		$href = '/gallery/?' . urlencode($g->name);
 		?>
 			<div class="GalleryBrief">
-				<h3><a href="<?= $href?>"><?= $gallery->niceName ?>
+				<h3><a href="<?= $href?>"><?= $g->niceName ?>
 					(<?= count($images) - 4 ?> more images)</a></h3>
 	
 				<div class="Thumbnails">
@@ -40,7 +42,7 @@ function showGallery($name) {
 			continue;
 		?>
 
-		<h2>Gallery - <?= str_replace('_', ' ', $gallery->name) ?></h3>
+		<h2>Gallery - <?= str_replace('_', ' ', $gallery->name) ?></h2>
 		<a href="gallery">Back</a><br/>
 
 		<div class="Description"><?=h($gallery->desc)?></div>

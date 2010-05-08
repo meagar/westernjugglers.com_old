@@ -1,12 +1,18 @@
-<? function yield_body() { ?>
+<?php
+
+function w($name) {
+	return 'http://en.wikipedia.org/wiki/' . htmlentities($name);
+}
+
+function yield_body() { ?>
 
 <p>
-	<b>The Western Juggling Club</b> is a student club at the <a href="http://uwo.ca"
-	>University of Western Ontario</a> that promotes juggling as a fun,
-	stress-relieving activity that helps to improve hand-eye coordination.
-	The club is suitable for jugglers of all skill levels, with learn-to-juggle
-	workshops for those just starting out, and juggling games for those with a
-	little more experience.
+	<b>The Western Juggling Club</b> is a student club at the
+	<a href="http://uwo.ca">University of Western Ontario</a> that promotes
+	juggling as a fun, stress-relieving activity that helps to improve hand-eye
+	coordination.  The club is suitable for jugglers of all skill levels, with
+	learn-to-juggle workshops for those just starting out, and juggling games
+	for those with a little more experience.
 </p>
 
 <p>
@@ -27,13 +33,14 @@
 	Juggling is not just done with
 	<a href="http://en.wikipedia.org/wiki/Balls_(juggling)">balls</a>,
 	and we have members who juggle a wide variety of other props including
-	<a href="http://en.wikipedia.org/wiki/Clubs_(juggling)">clubs</a>,
+	<a href="<?=w('Clubs_(juggling)' ?>">clubs</a>,
 	<a href="http://en.wikipedia.org/wiki/Juggling_ring">rings</a>,
 	<a href="http://en.wikipedia.org/wiki/Devil_Sticks">devil sticks</a>,
 	<a href="http://en.wikipedia.org/wiki/Diabolo">diabolos</a>,
-	<a href="http://en.wikipedia.org/wiki/Cigar_box_%28juggling%29">cigar boxes</a>,
+	<a href="<?=w('Cigar_box_(juggling)')?>">cigar boxes</a>,
 	<a href="http://en.wikipedia.org/wiki/Kendama">kendama</a>, and
-	<a href="http://en.wikipedia.org/wiki/Yo-yo">yo-yos</a>.  They would be more than
+	<a href="http://en.wikipedia.org/wiki/Yo-yo">yo-yos</a>.
+	They would be more than
 	happy to demonstrate how to use all of these props as well as how to
 	perform tricks with them.  Some members juggle
 	<a href="http://en.wikipedia.org/wiki/Torch_(juggling)">torches</a> or

@@ -1,4 +1,6 @@
-<? function yield_body() { ?>
+<?php
+
+function yield_body() { ?>
 
 <p class="Notes">
 	Below is the official calendar for the UWO Juggling club.  It contains our
@@ -14,4 +16,4 @@
 
 <iframe src="http://www.google.com/calendar/embed?src=4l2em5a68d2m7uijpjnc1qbtbo%40group.calendar.google.com&amp;ctz=America/New_York" style="border: 0; width:100%; height:700px;" frameborder="0" scrolling="no"></iframe>
 
-<? } include('parts/layout.php') ?>
+<?php } include('parts/layout.php') ?>

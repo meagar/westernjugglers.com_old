@@ -1,6 +1,8 @@
-<? require_once('include/record.php'); ?>
+<?php
 
-<?function yield_body() { ?>
+require_once('include/record.php');
+
+function yield_body() { ?>
 
 <div id="Records">
 	<h2>Club Records</h2>

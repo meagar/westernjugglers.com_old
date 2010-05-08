@@ -1,6 +1,8 @@
-<? require_once('include/event.php') ?>
+<?php
 
-<? function yield_body() { ?>
+require_once('include/event.php');
+
+function yield_body() { ?>
 
 <h2>Events</h2>
 <p>
@@ -14,13 +16,13 @@
 <p>Some upcoming events and festivals within driving distance of London:</p>
 
 <ul>
-<? foreach (getEvents() as $event) { ?>
+<? foreach (getEvents() as $e) { ?>
 	<li class="Event">
-		<h4><?=h($event->name)?></h4>
-		<p class="Date"><?=h($event->date)?></p>
-		<p class="Where"><?=h($event->where)?></p>
-		<p class="Url"><a href="<?= $event->website ?>"><?=h($event->website)?></a></p>
-		<p class="Info"><?= $event->info ?></p>
+		<h4><?=h($e->name)?></h4>
+		<p class="Date"><?=h($e->date)?></p>
+		<p class="Where"><?=h($e->where)?></p>
+		<p class="Url"><a href="<?= $e->website ?>"><?=h($e->website)?></a></p>
+		<p class="Info"><?= $e->info ?></p>
 	</li>
 <? } ?>
 </ul>

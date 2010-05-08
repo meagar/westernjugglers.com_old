@@ -14,18 +14,18 @@ $members = array
 ?>
 
 <div id="Executive">
-	<? foreach ($members as $info) {
-		$file = 'gfx/members/' . strtolower($info[0]) . '.jpg';	?>
+	<? foreach ($members as $m) {
+		$file = 'gfx/members/' . strtolower($m[0]) . '.jpg';	?>
 		<div class="Member">
 			<? if (is_file($file)) { ?>
-				<img src="/<?= $file ?>" alt="<?=h($info[0])?>" />
+				<img src="/<?= $file ?>" alt="<?=h($m[0])?>" />
 			<? } ?>
-			<h3><?= h($info[0]) ?></h3>
-			<h4><?= h($info[1]) ?></h4>
-			<p><?=  h($info[2]) ?></p>	
+			<h3><?= h($m[0]) ?></h3>
+			<h4><?= h($m[1]) ?></h4>
+			<p><?=  h($m[2]) ?></p>	
 		</div>
 	<? } ?>
-</div>
+</div><!-- #executive -->
 
 <? } include('parts/layout.php'); ?>
 
