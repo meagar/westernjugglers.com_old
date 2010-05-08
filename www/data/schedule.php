@@ -2,8 +2,17 @@
 
 	# map of locations to an array of dates
 	# Dates should be parsable by date() ie, (Month DD, YYYY)
-
+	
 	return array
+	( 'Alumni Hall' => array
+		( 'May 16, 2010'
+		, 'May 26, 2010'
+		, 'May 30, 2010'
+		)
+	);
+	
+
+	/*	return array
 	(	'Alumni Hall' => array
 		( 'September 27, 2009'
 		, 'October 4, 2009'
@@ -32,7 +41,7 @@
 		, 'March 29, 2010'
 		)
 	);
-
+ */
 	/* 2009 summer schedule
 	return array
 	(	'UCC Atrium' => array
