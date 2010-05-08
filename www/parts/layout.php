@@ -18,7 +18,7 @@ $TocItems = array
 	, 'Links' => 'links'
 	);
 
-$flash = @file_get_contents('_data/flash');
+$flash = @file_get_contents('data/flash');
 
 if ($flash != "")
 	$flash = '<div class="FlashBox">' . $flash . '</div>';

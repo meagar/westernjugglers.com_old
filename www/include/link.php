@@ -7,5 +7,5 @@ class Link {
 	}
 };
 
-include('_data/links.php');
+include('data/links.php');
 ?>
