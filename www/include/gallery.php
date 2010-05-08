@@ -32,7 +32,7 @@ class Image {
 		$this->file = $file;
 		$extension = pathinfo($file);
 
-		$thumb = '_thumbs/' . md5_file($file) . '.' . $extension['extension'];
+		$thumb = 'thumbs/' . md5_file($file) . '.' . $extension['extension'];
 		$thumb = strtolower($thumb);
 
 		if (!is_file($thumb))
