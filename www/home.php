@@ -33,7 +33,7 @@ function yield_body() { ?>
 	Juggling is not just done with
 	<a href="http://en.wikipedia.org/wiki/Balls_(juggling)">balls</a>,
 	and we have members who juggle a wide variety of other props including
-	<a href="<?=w('Clubs_(juggling)' ?>">clubs</a>,
+	<a href="<?=w('Clubs_(juggling)')?>">clubs</a>,
 	<a href="http://en.wikipedia.org/wiki/Juggling_ring">rings</a>,
 	<a href="http://en.wikipedia.org/wiki/Devil_Sticks">devil sticks</a>,
 	<a href="http://en.wikipedia.org/wiki/Diabolo">diabolos</a>,
