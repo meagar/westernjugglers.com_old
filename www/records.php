@@ -1,4 +1,4 @@
-<? require_once('_include/record.php'); ?>
+<? require_once('include/record.php'); ?>
 
 <?function yield_body() { ?>
 

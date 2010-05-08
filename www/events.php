@@ -1,4 +1,4 @@
-<? require_once('_include/event.php') ?>
+<? require_once('include/event.php') ?>
 
 <? function yield_body() { ?>
 

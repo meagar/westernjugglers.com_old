@@ -1,4 +1,4 @@
-<? require_once('_include/gallery.php');
+<? require_once('include/gallery.php');
 
 function drawThumbnail($image) {
 	?><div class="Thumbnail"><a href="/picture.php?<?= $image->file ?>"><img
