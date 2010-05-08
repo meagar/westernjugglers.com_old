@@ -71,4 +71,4 @@ function yield_body() {
 		showAllGalleries();
 	echo '</div>';
 
-} include('_parts/layout.php');
+} include('parts/layout.php');

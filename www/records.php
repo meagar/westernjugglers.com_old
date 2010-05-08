@@ -25,4 +25,4 @@
 	</ul>
 </div><!-- Records -->
 
-<? } include('_parts/layout.php') ?>
+<? } include('parts/layout.php') ?>

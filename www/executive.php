@@ -27,5 +27,5 @@ $members = array
 	<? } ?>
 </div>
 
-<? } include('_parts/layout.php'); ?>
+<? } include('parts/layout.php'); ?>
 

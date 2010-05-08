@@ -14,4 +14,4 @@
 
 <iframe src="http://www.google.com/calendar/embed?src=4l2em5a68d2m7uijpjnc1qbtbo%40group.calendar.google.com&amp;ctz=America/New_York" style="border: 0; width:100%; height:700px;" frameborder="0" scrolling="no"></iframe>
 
-<? } include('_parts/layout.php') ?>
+<? } include('parts/layout.php') ?>
