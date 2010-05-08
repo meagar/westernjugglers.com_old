@@ -34,7 +34,7 @@ if ($flash != "")
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 	<title>UWO Juggling Club</title>
-	<link rel="stylesheet" type="text/css" href="/_css/standard.css" />
+	<link rel="stylesheet" type="text/css" href="/css/standard.css" />
 	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 	<meta name="keywords" content="juggle, juggling, jugglers, juggling club, western jugglers, western juggling club, university of western ontario, uwo juggling club, uiniversity of western ontario juggling club, balls, clubs, rings, diabolo, cigar boxes" />
 	<meta name="description" content="The University of Western Ontario Juggling Club" />
