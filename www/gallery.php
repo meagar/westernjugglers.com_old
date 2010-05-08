@@ -60,7 +60,7 @@ function yield_body() {
 		$keys = array_keys($_GET);
 		$gallery = basename($keys[0]);
 		
-		if (!is_dir("_gallery/$gallery"))
+		if (!is_dir("gallery/$gallery"))
 			unset($gallery);
 	}
 

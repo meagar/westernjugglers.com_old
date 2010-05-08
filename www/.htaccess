@@ -1,0 +1,9 @@
+RewriteEngine on
+
+
+# No rewriting for .js and .css requests
+RewriteRule ^js/.+\.js$ - [L]
+RewriteRule ^styles/.+\.css$ - [L]
+RewriteRule ^images/.+\.(jpg|png|gif) - [L]
+
+RewriteRule  ^gallery/?$  gallery.php [L]
