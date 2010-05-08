@@ -15,7 +15,7 @@ $members = array
 
 <div id="Executive">
 	<? foreach ($members as $info) {
-		$file = '_gfx/members/' . strtolower($info[0]) . '.jpg';	?>
+		$file = 'gfx/members/' . strtolower($info[0]) . '.jpg';	?>
 		<div class="Member">
 			<? if (is_file($file)) { ?>
 				<img src="/<?= $file ?>" alt="<?=h($info[0])?>" />

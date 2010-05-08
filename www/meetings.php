@@ -6,7 +6,7 @@
 	<h3 style="text-align:center">Summer Meetings</h3>
 	<p>Our official 2007-2008 meetings have ended, but many club members continue to meet <b>unofficially</b> durring the summer.</p>
 
-	<p>Monday meetings continue at the UCC, either in the Atrium or on the Concrete Beach, while Sunday meetings move to <a href="_gfx/gibbons.png">Gibbons Park</a> near the foot bridge.  In both cases, meetings are held <b>one hour earlier</b>, from <b>6pm to 8pm</b>.</p>
+	<p>Monday meetings continue at the UCC, either in the Atrium or on the Concrete Beach, while Sunday meetings move to <a href="gfx/gibbons.png">Gibbons Park</a> near the foot bridge.  In both cases, meetings are held <b>one hour earlier</b>, from <b>6pm to 8pm</b>.</p>
 </div>-->
 
 
