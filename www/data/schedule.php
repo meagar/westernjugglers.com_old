@@ -4,10 +4,14 @@
 	# Dates should be parsable by date() ie, (Month DD, YYYY)
 	
 	return array
-	( 'Alumni Hall' => array
+	( 'UCC Atrium' => array
 		( 'May 16, 2010'
-		, 'May 26, 2010'
+		, 'May 24, 2010'
 		, 'May 30, 2010'
+		, 'June 6, 2010'
+		, 'June 13, 2010'
+		, 'June 20, 2010'
+		, 'June 27, 2010'
 		)
 	);
 	
