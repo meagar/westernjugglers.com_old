@@ -4,19 +4,19 @@ function yield_body() { ?>
 
 <h3>Meetings</h3>
 
-<div style="background:#eee; border:2px solid #777; float:right; width:250px; margin:0 20px 20px; padding:0 10px;">
+<!--<div style="background:#eee; border:2px solid #777; float:right; width:250px; margin:0 20px 20px; padding:0 10px;">
 	<h3 style="text-align:center">Summer Meetings</h3>
 	<p>Our official 2009-2010 meetings have ended, but many club members continue to meet <b>unofficially</b> durring the summer.</p>
 
-	<p>This year, unofficial meetings will usually be held Sundays in the UCC Atrium from <b>6pm to 8pm</b>.  There may still be some deviation with meetings being bumped to Monday for holidays, so check the schedule!</p>
-</div>
+	<p>This year, unofficial meetings will usually be held Sundays in the UCC Atrium from <b>7pm to 9pm</b>.  There may still be some deviation with meetings being bumped to Monday for holidays, so check the schedule!</p>
+</div>-->
 
 
 <p>
-	Our club meetings are always held from <span style="text-decoration:line-through; color:#666;"><b>7pm to 9pm</b> alternating between Monday
-	in the UCC Atrium and Sunday in Alumni Hall</span> <span style="color:#f00">6pm - 8pm most Sundays in the UCC Atrium during the summer</span>. Due to holidays and other
+	Our club meetings are always held from <b>7pm to 9pm</b> alternating between Monday
+	in the UCC Atrium and Sunday in Alumni Hall. <!--<span style="color:#f00">6pm - 8pm most Sundays in the UCC Atrium during the summer</span>.--> Due to holidays and other
 	interruptions, there might be some deviation from the Monday-Sunday
-	alternation, refer to the schedule to the left for concrete meeting dates.
+	alteration, refer to the schedule to the left for concrete meeting dates.
 </p>
 <p>
 Our meetings are also available on the club's <?= GOOGLE_CAL_LINK ?>.

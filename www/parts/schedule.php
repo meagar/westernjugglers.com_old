@@ -64,7 +64,7 @@ function RenderMeetingTable() {
 		<tr><th colspan="2">2009 - 2010 Meetings</th></tr>
 		<tr><th colspan="2">
 			<span style="color:#000; font-weight:bold; color:#f00"
-			>6pm - 8pm</span></th></tr>
+			>7pm - 9pm</span></th></tr>
 		<tr><th>Date</th><th>Location</th></tr>
 		<?
 
