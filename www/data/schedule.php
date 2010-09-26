@@ -18,7 +18,7 @@
 			'March 7, 2011',
 			'March 21, 2011',
 		),
-		'Alumni Hall' => array (
+		'TBA' => array (
 			'October 3, 2010',
 			'October 17, 2010',
 			'November 7, 2010',
