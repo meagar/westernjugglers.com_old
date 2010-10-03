@@ -63,8 +63,10 @@ function RenderMeetingTable() {
 		<? $dateList = array() ?>
 		<tr><th colspan="2">2010 - 2011 Meetings</th></tr>
 		<tr><th colspan="2">
-			<span style="color:#000; font-weight:bold; color:#f00"
-			>7pm - 9pm</span></th></tr>
+			<!--summer<span style="color:#000; font-weight:bold; color:#f00">-->
+			7pm - 9pm
+			<!--</span>-->
+			</th></tr>
 		<tr><th>Date</th><th>Location</th></tr>
 		<?
 

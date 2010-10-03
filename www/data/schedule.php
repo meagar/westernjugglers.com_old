@@ -6,6 +6,7 @@
 	return array (
 		'UCC Atrium' => array (
 			'September 26, 2010',
+			'October 3, 2010',
 			'October 11, 2010',
 			'October 25, 2010',
 			'November 1, 2010',
@@ -19,7 +20,6 @@
 			'March 21, 2011',
 		),
 		'TBA' => array (
-			'October 3, 2010',
 			'October 17, 2010',
 			'November 7, 2010',
 			'November 21, 2010',
