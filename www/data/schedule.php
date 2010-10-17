@@ -12,6 +12,7 @@
 			'November 1, 2010',
 			'November 15, 2010',
 			'November 29, 2010',
+			'October 17, 2010',
 			'January 10, 2011',
 			'January 24, 2011',
 			'February 7, 2011',
@@ -20,7 +21,6 @@
 			'March 21, 2011',
 		),
 		'TBA' => array (
-			'October 17, 2010',
 			'November 7, 2010',
 			'November 21, 2010',
 			'December 5, 2010',
