@@ -16,7 +16,7 @@
 			'January 10, 2011',
 			'January 24, 2011',
 			'February 7, 2011',
-			'February 21, 2011',
+			'February 28, 2011',
 			'March 7, 2011',
 			'March 21, 2011',
 		),
@@ -26,7 +26,7 @@
 			'December 5, 2010',
 			'January 16, 2011',
 			'January 30, 2011',
-			'February 27, 2011',
+			'February 13, 2011',
 			'March 13, 2011',
 			'March 27, 2011',
 		)
